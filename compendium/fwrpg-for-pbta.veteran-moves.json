@@ -1,0 +1,137 @@
+{
+	"label": "Veterano",
+  "mapping": {
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "failurelabel": "system.moveResults.failure.label",
+    "partiallabel": "system.moveResults.partial.label",
+    "successlabel": "system.moveResults.success.label",    
+    "choices": "system.choices"
+  }, 
+  
+	"entries": {
+		"Arcane Heirloom": {
+			"name": "Relíquia Arcana",
+      "description": "<p>Quando você consulta sua arma para obter sua sabedoria...</p> <p>Explique qual é o seu dilema e de quem é a voz que lhe responde. Descreva como você a ouve/vê/sente, então role+Conhecimento:</p> ",
+      "failure": "<p><strong>1-6:</strong> O dilema é falso, o problema é você! Independentemente de você achar que é verdade ou não, a voz o acusa de algum tipo de fraqueza ou falha, escolha do Mundo. Transforme isso em uma <em>Tag</em> em sua ficha.</p>",
+      "partial": "<p><strong>7-9: </strong>O Mundo descreverá uma visão, impressão ou presságio útil.</p>",
+      "success": "<p><strong>10+: </strong>O Mundo descreverá uma visão, impressão ou presságio útil, esclarecendo o que significa para o seu dilema. Ganhe uma <em>Vantagem</em> para agir com base no conselho.</p> ",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Brace for Impact": {
+			"name": "Preparar-se para o Impacto",
+      "description": "<p>Quando você <strong>sofre dano</strong>...</p> <p>Você pode ignorá-lo descrevendo como sua armadura, escudo ou arma absorve o impacto. O item agora está [<em><strong>amassado</strong></em>] de uma maneira muito visível. Se já estava [<em><strong>amassado</strong></em>], ele se torna [<em><strong>quebrado</strong></em>] e inutilizável.</p>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Brutal": {
+			"name": "Brutal",
+      "description": "<p>Quando você realiza um ato de violência <strong>desnecessária</strong> ou <strong>excessiva</strong>...</p> <p>Qualquer testemunha pensará que [<em><strong>*SeuNome* é um brutamontes</strong></em>]. Mesmo que não expressem isso, você sempre sentirá seu julgamento. <strong>Uma vez por sessão</strong>, escolha uma opção:</p> <ul> <li>Você tinha motivos. Se oferecer uma justificação ao Mundo, ganhe <strong>1 PE</strong>.</li> <li>Eles estão certos. Se contar ao Mundo por que acha que fez isso, marque <strong>1 <em>Crescimento</em></strong>.</li> </ul>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Bulwark": {
+			"name": "Escudo",
+      "description": "<p>Quando o dano está <strong>chegando</strong> mas primeiro você tem a chance de agir...</p> <p>Se escolher <strong>cerrar os dentes</strong> e <strong>manter-se firme</strong>, você ignora os efeitos <strong>Temp</strong> desse dano.</p> <p>Toda vez que você receber uma <strong>Unidade de Cura</strong>, você pode gastar <strong>PRs</strong> para obter <strong>Unidades de Cura</strong> adicionais.</p>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Fighting Style": {
+			"name": "Estilo de Luta",
+      "description": "<p>Você é treinado em um <strong>estilo de luta único</strong>...</p> <p>Explique como ele se parece e dê um nome a ele, então marque uma opção. Quando você <em><strong>Brigar</strong></em>, se descrever o ataque no seu estilo...</p> <ul> <li>Rolar+Vigilância. Você conta como um [<em><strong>pequeno grupo</strong></em>] mas causa [<em><strong>Pouco dano</strong></em>] por padrão.</li> <li>Rolar+Intensidade. Você é imune aos efeitos <strong>Temp</strong> mas causa <em><strong>[Pouco dano]</strong></em> por padrão.</li> <li>Rolar+Conhecimento. Você pode escolher uma opção extra da lista de <em><strong>Brigar</strong></em> para tomar/manter/forçar.</li> <li>Rolar+Nada. Você conta como um [<em><strong>pequeno grupo</strong></em>] e causa [<em><strong>Dano Terrível</strong></em>] por padrão, mas não pode sofrer [<em><strong>Pouco dano</strong></em>].</li> </ul>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Not To Be Trifled With": {
+			"name": "Não se Deixe Enganar",
+      "description": "<p>Quando você <strong>ousadamente mostra</strong> sua força e habilidade...</p> <p>Rolar+Intensidade.</p> <p>Todos os espectadores ficam [<em><strong>impressionados</strong></em>] e:</p> ",
+      "failure": "<p>1-6: <em>Reação do Mundo</em>.</p>",
+      "partial": "<p><strong>7-9:</strong> Um deles fica [<em><strong>indignado</strong></em>] ou [<em><strong>agradado</strong></em>], escolha do Mundo.</p>",
+      "success": "<p><strong>10+: </strong>Um deles fica [<em><strong>aterrorizado</strong></em>] ou [<em><strong>fascinado</strong></em>], sua escolha.</p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Old Scars": {
+			"name": "Cicatrizes Antigas",
+      "description": "<p>Quando você <strong>mostra </strong>para alguém uma de suas cicatrizes...</p> <p>Se você contar a <strong>verdade </strong>sobre <strong>como </strong>a obteve e <strong>por que</strong> sente orgulho ou vergonha dela, eles compartilharão uma experiência semelhante com você. Isso conta como uma cena de <em><strong>Vínculo</strong></em>.</p>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Riddle of Steel": {
+			"name": "Enigma do Aço",
+      "description": "<p>Quando você enfrenta uma escolha entre <strong>ousadia </strong>ou <strong>segurança</strong>...</p> <p>Explique o que você considera corajoso em uma opção, e vergonhoso e covarde na outra. Então escolha uma:</p> <ul> <li>Você faz a coisa [<em><strong>ousada</strong></em>], ganha o <em><strong>Tag</strong></em> e <strong>1 PE</strong>.</li> <li>Você faz a coisa [<em><strong>covarde</strong></em>], ganha o <em><strong>Tag</strong></em> e <strong>1 PE</strong>.</li> </ul>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Smash": {
+			"name": "Esmagar",
+      "description": "<p>Ao usar a destreza física para destruir ou passar por um obstáculo <strong>inanimado</strong>...</p> <p>Você o faz de maneira [<em><strong>lenta</strong></em>], [<em><strong>bagunçada</strong></em>] e [<em><strong>ruidosa</strong></em>], e o obstáculo fica [<em><strong>quebrado</strong></em>] irreparavelmente. Mas primeiro role+Ousadia.</p> ",
+      "failure": "<p><strong>1-6:</strong> Ignore 1 <em><strong>Tag</strong></em> + <em>Reação do Mundo</em>.</p>",
+      "partial": "<p><strong>7-9</strong>: Ignore 2 <em><strong>Tags</strong></em>.</p>",
+      "success": "<p><strong>10+:</strong> Ignore 3 <em><strong>Tags</strong></em>.</p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Tactician": {
+			"name": "Estrategista",
+      "description": "<p>Ao <em><strong>Observar o Ambiente</strong></em> no calor do combate...</p> <p>Escolha uma opção:</p> <ul> <li>Faça uma pergunta extra.</li> <li><strong>Você </strong>nota uma <strong>fraqueza/susceptibilidade/oportunidade sutil</strong> - descreva ao Mundo.</li> </ul>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"This is My Weapon": {
+			"name": "Esta é Minha Arma",
+      "description": "<p>Esta é sua arma. Pode haver muitas como ela, mas esta é <strong>sua</strong>...</p> <p>Minha arma foi chamada (9) ____________ por ____________. Ela é (4) ____________ (5) ____________: (1) ____________, (2) ____________ e boa em (3) ____________. É (6) ____________ e ____________, com um visual definitivamente (7) ____________. Empunhá-la me faz sentir (8) ____________ porque me lembra de ____________.</p> <p>Se você <strong>quebrar</strong>, <strong>perder</strong> ou <strong>abandonar</strong> sua arma para sempre, pergunte ao Mundo o que você precisará fazer para recuperar a antiga ou encontrar/forjar/ganhar uma nova e torná-la <strong>realmente sua</strong>.</p> <p>Eles usarão a ação de <em><strong>Ritual</strong></em> do Ocultista para responder você.</p><p>@UUID[Compendium.fwrpg-for-pbta.occultist-moves.Item.F0qxE6zTvXRJX8iZ]{Ritual}</p>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		}
+	}
+}

@@ -1,0 +1,148 @@
+{
+	"label": "Andarilho",
+  "mapping": {
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "failurelabel": "system.moveResults.failure.label",
+    "partiallabel": "system.moveResults.partial.label",
+    "successlabel": "system.moveResults.success.label",    
+    "choices": "system.choices"
+  },   
+
+  "entries": {
+    "Animal Companion": {
+      "name": "Companheiro Animal",
+      "description": "<p>Você tem uma conexão com um animal selvagem que é leal a você.</p> <p>O nome do meu companheiro é (7) ____________.</p> <p>Eles são um (3) ____________, que é um (2) ____________ (1) ____________. Eles são (4) ____________, ____________ e treinados para (6) ____________ e ____________. Infelizmente, eles também são (5) ____________ e ____________.</p> <p>Quando você <strong>atribui uma tarefa</strong> ao Companheiro...</p> <p>Se eles têm um <strong>treinamento</strong> adequado, eles a realizam com <em><strong>Vantagem</strong></em>. Seu companheiro também pode realizar a ação <strong>Intervir</strong> sempre que apropriado.</p>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Claw and Dagger": {
+      "name": "Garra e Adaga",
+      "description": "<p>Ao aplicar o <strong>comportamento animal</strong> no combate de curto alcance...</p> <p>Diga <strong>qual animal</strong> você está imitando e o que esse comportamento <strong>significa </strong>no estilo de luta desse animal. Escolha uma opção adicional quando você <em><strong>Brigar</strong></em> na próxima vez.</p>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Feral": {
+      "name": "Selvagem",
+      "description": "<p>Ao aplicar <strong>comportamento animal</strong> em interações humanoides...</p> <p>Diga <strong>qual animal</strong> você está emulando e o que esse comportamento <strong>significa</strong> no contexto social desse animal, então escolha uma opção:</p> <ul> <li>Suas ações parecem desconcertantes. Você parece [<em><strong>bestial</strong></em>] mas ganha <em><strong>Vantagem</strong></em> para <em><strong>Persuadir</strong></em> e <em><strong>Ameaçar</strong></em>.</li> <li>Suas ações parecem suaves. Você parece [<em><strong>misterioso</strong></em>] e ganha <strong>1 PE</strong>.</li> </ul>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Gods of The Wilds": {
+      "name": "Deuses das Selvas",
+      "description": "<p>Você conhece os Antigos que habitam os ermos e consegue reconhecer seus vestígios e presença...</p> <p>Você ganha a habilidade <em><strong>@UUID[Compendium.fwrpg-for-pbta.priest-moves.Item.G9CdHjXNdHykGmac]{Sinais e Portentos}</strong></em> do Clérigo. O <strong>Conceito</strong> e o <strong>Símbolo</strong> podem mudar a cada vez, mas sempre devem estar relacionados a coisas como natureza, plantas, animais e a terra.</p>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Hidden Predator": {
+      "name": "Predador Oculto",
+      "description": "<p>Ao tentar se <strong>esconder</strong>...</p> <p>Descreva como você faz isso. O Mundo observará como você camufla sua aparência, cheiro, ruídos e rastros.</p> <ul> <li>Se desejar, gaste <strong>alguns minutos</strong> e <strong>1 Suprimento</strong> para sempre estar [<em><strong>em cobertura</strong></em>] em um tipo de ambiente.</li> <li>Enquanto estiver [<em><strong>em cobertura</strong></em>] e se movendo [<em><strong>muito devagar</strong></em>], ninguém pode detectá-lo, mas <strong>sinais reveladores</strong> ainda podem alertar perseguidores.</li> <li>Enquanto estiver na cobertura ou próximo dela, gaste <strong>1 PE</strong> para se mover [<em><strong>devagar</strong></em>] ou <strong>2 PE</strong> para se mover [<em><strong>rapidamente</strong></em>] sem ser detectado.</li> <li>Ao ser descoberto, uma distração rápida e <strong>1 PE</strong> fará com que você <strong>perca brevemente</strong> seus perseguidores.</li> </ul>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Raptor Shot": {
+      "name": "Tiro de Raptor",
+      "description": "<p>Ao tentar um feito difícil de <strong>tiro preciso</strong>...</p> <p>Você sempre acerta o alvo, mas:</p> <ul> <li>Leva tempo + <em>Reação Aberta</em>.</li> <li>Causa danos colaterais.</li> <li>Chama atenção indesejada.</li> </ul> <p>Mas primeiro role+Ousadia.</p> ",
+      "failure": "<p><strong>1-6:</strong> Não evite nenhum.</p>",
+      "partial": "<p><strong>7-9:</strong> Evite 1.</p>",
+      "success": "<p><strong>10+: </strong>Evite 2.</p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Survivalist": {
+      "name": "Sobrevivencialista",
+      "description": "<p>Você é um <strong>especialista </strong>em encontrar comida e abrigo...</p> <p>Você é capaz de:</p> <ul> <li>Quando você <em><strong>Reabastece </strong></em>em uma área civilizada, se <strong>revirar as ruas</strong> role+Conhecimento.</li> <li>Quando você <em><strong>Reabastece </strong></em>+Conhecimento, faça-o com <em><strong>Vantagem</strong></em>.</li> <li>Durante um <em><strong>Descanso Longo</strong></em>, sua presença concede <strong>+1</strong> <strong>Vigia </strong>gratuitamente.</li> <li>Durante uma <em><strong>Jornada</strong></em>, direções vagas não causam <em><strong>Desvantagem</strong></em>.</li> <li>Durante uma <em><strong>Jornada</strong></em>, você pode gastar 3 PE para tornar a viagem [<em><strong>mais rápida</strong></em>] ou [<em><strong>mais segura</strong></em>] ou [<em><strong>despercebida</strong></em>].</li> </ul>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Through Thick and Thin": {
+      "name": "Nos Altos e Baixos",
+      "description": "<p>Quando você conta a alguém sobre uma <strong>dificuldade passada </strong>que você e seu Companheiro enfrentaram <strong>juntos</strong>...</p> <p>Descreva isso e depois diga como a memória faz você se sentir. Escolha um:</p> <ul> <li>Envergonhado ou constrangido: ganhe <strong>1 PE</strong>.</li> <li>Orgulhoso ou alegre: obtenha uma <em><strong>Vantagem</strong></em> ao <em><strong>Persuadir</strong></em> ou <em><strong>Ameaçar </strong></em>seu público.</li> </ul>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Trail Hound": {
+      "name": "Cão de Trilha",
+      "description": "<p>Ao <strong>Observar o Ambiente</strong> em busca do rastro de uma criatura...</p> <p>Se você descrever algumas curiosidades sobre esta criatura, <strong>Observe o Ambiente</strong> com uma <em><strong>Vantagem</strong></em>. Se encontrar um rastro e quiser segui-lo, role+Vigilância.</p> ",
+      "failure": "<p><strong>1-6:</strong> <em>Reação do Mundo</em>.</p>",
+      "partial": "<p><strong>7-9:</strong> <em><strong>Jornada </strong></em>até a localização aproximada da criatura.</p>",
+      "success": "<p><strong>10+: <em>Jornada </em></strong>até a localização exata da criatura.</p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Trapper": {
+      "name": "Armadilheiro",
+      "description": "<p>Ao construir ou armar uma <strong>armadilha simples...</strong></p> <p>Descreva em termos gerais que tipo de <strong>engenhoca</strong> pretende construir e o que deve acontecer quando ela for ativada. O Mundo então lhe dirá quais materiais e quanto tempo são necessários para criar, disfarçar e montar a armadilha:</p> <ul> <li>Materiais improvisados/naturais: <strong>1 Suprimento.</strong></li> <li>Materiais comuns/fabricados: <strong>2 Suprimentos.</strong></li> <li>Materiais específicos/incomuns: use-os <strong>se os tiver</strong>.</li> <li>Levará minutos, horas ou um dia inteiro.</li> </ul>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Wayfarer: Signs and Portents": {
+      "name": "Andarilho: Sinais e Presságios",
+      "description": "<p>Ao <strong>testemunhar</strong> um evento que considere significativo...</p> <p>Diga ao Mundo como você vê o evento ecoando o <strong>Conceito </strong>ou <strong>Símbolo </strong>de sua divindade, e se é um presságio <strong>bom </strong>ou <strong>ruim</strong>. Você <strong>ganha 1 PE</strong> e o Mundo estabelecerá ou atualizará uma <strong>Ampulheta </strong>inspirada por ele.</p>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Wild Empathy": {
+      "name": "Empatia Selvagem",
+      "description": "<p>Ao se comunicar com <strong>animais naturais</strong>...</p> <p>Você consegue fazer suas intenções serem compreendidas e, por sua vez, entender as intenções e necessidades deles. Isso não é uma verdadeira linguagem, apenas o fruto da experiência e empatia.</p> <p>Se você gastar <strong>1 PE</strong>, pode fazer com que eles compreendam uma ideia complexa que normalmente seria estranha ou sem sentido para esse tipo de animal.</p>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    }
+  }
+}

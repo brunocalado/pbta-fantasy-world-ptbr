@@ -30,7 +30,7 @@ Pesquise **Fantasy World - Tradução** em módulos. Depois instale.
 
 ## Instalação Manual
 Vá em **módulos** e coloque o link abaixo. 
-Link: https://raw.githubusercontent.com/brunocalado/fantasy-world-ptbr/main/module.json
+Link: https://raw.githubusercontent.com/brunocalado/pbta-fantasy-world-ptbr/main/module.json
 
 # Alterações
 Você pode verificar por mudanças em [MUDANÇAS](CHANGELOG.md)

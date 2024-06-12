@@ -14,10 +14,10 @@
 	"entries": {
 		"Arcane Art": {
 			"name": "Arte Arcana",
-      "description": "",
-      "failure": "",
-      "partial": "",
-      "success": "",
+      "description": "<p><strong>Você é um artista performático.</strong></p> <p>Minha arte performática é ____________. Eu a realizo com o apoio dos meus confiáveis ____________. Eu a obtive de ____________ e é bastante única por causa de sua ____________.</p> <p>Quando você <strong>realiza sua arte</strong>...</p> <p>Ela é imbuida de significado, emoção e magia:</p> <ul> <li>Defina um <strong>público-alvo</strong>: mulheres na multidão, pessoas de bom coração, nobres, meu amigo Pulsifer, etc.</li> <li>Escolha <strong>um</strong> sentimento ou emoção e descreva como a performance o expressa.</li> </ul> <p><strong>Todos</strong> presentes sentem a emoção, mas apenas o público-alvo é afetado magicamente. Escolha um:</p> <ul> <li>Eles são estimulados e elevados; eles ganham uma <em><strong>Vantagem</strong></em>.</li> <li>Eles estão perturbados e aflitos; eles ganham uma <em><strong>Desvantagem</strong></em>.</li> <li>Suas mentes são sacudidas e purificadas, <em>[<strong>alerta</strong>].</em></li> <li>Suas mentes estão enfeitiçadas e nubladas, [<em><strong>distraídas</strong></em>].</li> </ul> <p>Então, role+Intensidade.</p> ",
+      "failure": "<p><strong>1-6:</strong> Você pode realizar ou realizar outras ações. Retomar a performance é feito com Desvantagem. + <em>Reação do Mundo</em>.</p>",
+      "partial": "<p><strong>7-9:</strong> Você pode performar ou realizar outras ações. Retomar a performance é feito com Desvantagem.</p>",
+      "success": "<p><strong>10+: </strong>Você pode performar enquanto realiza outras ações, com Desvantagem Contínua.</p>",
       "failurelabel": "Revés",
       "partiallabel": "Benefício Menor",
       "successlabel": "Grande Benefício!",
@@ -25,7 +25,7 @@
 		},
 		"Battle Steward": {
 			"name": "Mordomo de Batalha",
-      "description": "",
+      "description": "<p>Quando você realiza sua <em><strong>Arte Arcana</strong></em>...</p> <p>Adicione estas opções à lista de efeitos mágicos:</p> <ul> <li>Eles são fortalecidos e frenéticos: quando causam dano, é <strong>Grave</strong>.</li> <li>Eles são fortificados e acalmados: quando sofrem dano, é <strong>Pequeno</strong>.</li> </ul>",
       "failure": "",
       "partial": "",
       "success": "",
@@ -36,7 +36,7 @@
 		},
 		"Charming and Open": {
 			"name": "Encantador e Sincero",
-      "description": "",
+      "description": "<p>Quando você fala <strong>francamente</strong> com alguém...</p> <p>A pessoa com quem você está conversando deve escolher uma pergunta da lista de <em><strong>Ler Alguém</strong></em>:</p> <ul> <li>Se você responder <strong>honestamente</strong>, pode fazer a eles uma pergunta da lista, à qual eles <strong>terão que</strong> responder honestamente.</li> <li>Se você <strong>se esquivar</strong> com uma mentira ou meia verdade, o Mundo terá uma <em>Reação Fechada</em>.</li> </ul>",
       "failure": "",
       "partial": "",
       "success": "",
@@ -47,7 +47,7 @@
 		},
 		"Devious": {
 			"name": "Pérfido",
-      "description": "",
+      "description": "<p>Quando você <em><strong>Ler Alguém</strong></em> durante um encontro social...</p> <p>Você pode fazê-lo <strong>sem</strong> interagir com eles, apenas observando seu comportamento no contexto.</p> <ul> <li>Se você fizer isso <strong>abertamente</strong>, eles percebem você, mas você rola com uma <em><strong>Vantagem</strong></em>.</li> <li>Se você fizer isso <strong>discretamente</strong>, eles não percebem, mas outra pessoa nota você.</li> <li>Se você fizer isso <strong>furtivamente</strong>, ninguém percebe, mas você rola com uma <em><strong>Desvantagem</strong></em>.</li> </ul>",
       "failure": "",
       "partial": "",
       "success": "",
@@ -58,7 +58,7 @@
 		},
 		"Ear For Magic": {
 			"name": "Ouvido para Magia",
-      "description": "",
+      "description": "<p>Quando você observa um efeito mágico, em curso ou sendo lançado...</p> <p>O Mundo o descreve como um ou mais desses elementos: uma sensação <strong>tátil</strong>, uma <strong>cor</strong>, um <strong>cheiro</strong>, um <strong>sabor</strong>, uma <strong>emoção</strong>, um <strong>som</strong>.</p> <ul> <li>Se você agir com base nesse conhecimento, faça-o com <em><strong>Vantagem</strong></em>.</li> <li>Você vai <strong>reconhecer</strong> esse modo de realizar magia se o ver novamente.</li> </ul>",
       "failure": "",
       "partial": "",
       "success": "",
@@ -69,7 +69,7 @@
 		},
 		"Eldritch Tones": {
 			"name": "Tons Eldritch",
-      "description": "",
+      "description": "<p>Quando você realiza sua <strong>Arte Arcana</strong>...</p> <p>Se você a leva a um clímax e então <strong>termina abruptamente</strong> a performance, o efeito emocional é tão intenso que causa <strong>Temp</strong> dano a <strong>todos</strong> dentro do alcance [<em><strong>próximo</strong></em>]:</p> <ul> <li>Você pode gastar <strong>1 PE</strong> para prejudicar apenas o seu <strong>público-alvo</strong>.</li> <li>Você pode gastar <strong>3 PE</strong> para intensificar o dano para <strong>Sério</strong>.</li> </ul>",
       "failure": "",
       "partial": "",
       "success": "",
@@ -80,10 +80,10 @@
 		},
 		"Reputation": {
 			"name": "Reputação",
-      "description": "",
-      "failure": "",
-      "partial": "",
-      "success": "",
+      "description": "<p>Quando você <strong>deixa seu nome cair</strong> para alavancar sua reputação...</p> <p>O Mundo dirá se eles já ouviram falar de você:</p> <ul> <li>Se não, você ganha <strong>1 PE</strong>.</li> <li>Se sim, você obtém uma <em><strong>Vantagem</strong></em> para <em><strong>Persuadi-los</strong></em>, mas primeiro role+Intenso.</li> </ul> ",
+      "failure": "<p><strong>1-6:</strong> <em>Reação do Mundo</em>.</p>",
+      "partial": "<p><strong>7-9:</strong> Descreva algo positivo <strong>ou </strong>algo negativo; o Mundo descreverá o outro.</p>",
+      "success": "<p><strong>10+:</strong> Descreva algo positivo <strong>e </strong>algo negativo que ouviram sobre você.</p>",
       "failurelabel": "Revés",
       "partiallabel": "Benefício Menor",
       "successlabel": "Grande Benefício!",
@@ -91,7 +91,7 @@
 		},
 		"Show Off": {
 			"name": "Exibido",
-      "description": "",
+      "description": "<p>Quando você faz um espetáculo <strong>alto</strong> e <strong>público</strong> de algo...</p> <p>Você ganha uma <em><strong>Vantagem</strong></em> para <em><strong>Persuadir</strong></em> ou <em><strong>Assumir um Risco</strong></em>.</p>",
       "failure": "",
       "partial": "",
       "success": "",
@@ -102,7 +102,7 @@
 		},
 		"Swashbuckler": {
 			"name": "Espadachim",
-      "description": "",
+      "description": "<p>Quando você faz algo <strong>atlético</strong> e também <strong>difícil</strong> ou <strong>perigoso</strong>...</p> <p>Descreva. <strong>Uma vez por cena</strong>, você ganha <strong>1 PE</strong> para cada opção que se aplicar:</p> <ul> <li>Você o faz de maneira extravagante ou (melo)dramática.</li> <li>Você solta uma observação espirituosa imediatamente antes, durante ou depois.</li> <li>Você flerta com alguém como parte de sua ação.</li> </ul>",
       "failure": "",
       "partial": "",
       "success": "",
@@ -113,7 +113,7 @@
 		},
 		"Up To Eleven": {
 			"name": "Até Onze",
-      "description": "",
+      "description": "<p>Quando você realiza sua <strong>Arte Arcana</strong>...</p> <p>Se você colocar todo o seu coração e alma nisso, o Mundo lhe fará uma pergunta da lista de <em><strong>Ler Alguém</strong></em>; seu <strong>público-alvo</strong> entenderá a resposta. E então...</p> <ul> <li>Adicione à lista de <strong>efeitos mágicos:</strong> Eles se entregam a um bacanal de emoções desinibidas. Celebrando, regozijando-se, lamentando, lutando, fornicando, compartilhando, espalhando. <strong>Sua escolha</strong>.</li> <li>Se você gastar <strong>1 PV</strong>, seu <strong>público-alvo</strong> experimentará sua performance independentemente das limitações normais. Sua rolagem base de Arte Arcana determina a área de efeito: <ul> <li><strong>1-6:</strong> Um prédio grande.</li> <li><strong>7-9: </strong>Um bairro inteiro.</li> <li><strong>10+:</strong> Uma pequena cidade.</li> </ul> </li> </ul>",
       "failure": "",
       "partial": "",
       "success": "",
@@ -124,7 +124,7 @@
 		},
 		"Well-Traveled": {
 			"name": "Bem Viajado",
-      "description": "",
+      "description": "<p>Quando você diz que <strong>já se deparou anteriormente</strong> com algo ou alguém...</p> <p>É verdade. Escolha um:</p> <ul> <li>Se foi em uma história ou música, descreva o essencial dela e então <strong>Recordar Conhecimentos</strong> com uma <em><strong>Vantagem</strong></em>.</li> <li>Se foi pessoalmente, descreva o essencial do encontro e se acha que correu bem ou mal. Ambos você e o Mundo escrevem a etiqueta [<strong>história compartilhada com...</strong>], então o Mundo lhe dirá o que <strong>parece diferente</strong> sobre isso/eles.</li> </ul>",
       "failure": "",
       "partial": "",
       "success": "",

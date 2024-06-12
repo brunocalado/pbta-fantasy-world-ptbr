@@ -1,0 +1,137 @@
+{
+	"label": "Druida",
+  "mapping": {
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "failurelabel": "system.moveResults.failure.label",
+    "partiallabel": "system.moveResults.partial.label",
+    "successlabel": "system.moveResults.success.label",    
+    "choices": "system.choices"
+  },   
+
+	"entries": {
+		"Born of The Soil": {
+			"name": "Nascido da Terra",
+      "description": "<p>Você está entrelaçado com a essência espiritual de sua <strong>Terra Natal</strong>.</p>\n<p>Minha Terra Natal é ____________ ____________ ____________. Durante meu ____________, os espíritos deixaram uma marca em meu corpo na forma de ____________ ____________. Isso me distingue [de maneira estranhamente diferente] não importa onde eu esteja.</p>\n<p>Quando você <strong>invoca os espíritos</strong> da natureza...</p>\n<p>Explique <strong>que tipo</strong> de espírito você está chamando. Diga se você os conhece e, se sim, diga o <strong>nome</strong> deles. Alguém <strong>sempre </strong>responde, mas o Mundo descreve <strong>quem </strong>aparece e <strong>como eles se sentem</strong> em relação a isso.</p>\n<p>Agora você pode interagir <strong>socialmente </strong>com o espírito. Descreva como isso se parece.</p>\n<p>Se você usar um dos movimentos de \"<em><strong>Chamado</strong></em>\" sem primeiro obter o <strong>consentimento</strong> do espírito, eles ficarão [<em><strong>zangados</strong></em>] com você.</p> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Call to The Beast": {
+			"name": "Chamado às Feras",
+      "description": "<p>Quando você assume a forma de<strong> um animal</strong>...</p>\n<p><strong>Dispare <em>Nascido da Terra</em></strong>. Para assumir a forma de um animal <strong>nativo </strong>da sua <strong>Terra Natal</strong>, role+Conhecimento:</p>\n<p><strong>Gaste 1 </strong>Reserva para realizar uma ação, <strong>com sucesso </strong>e <strong>sem disparar movimentos</strong>, para os quais a forma de animal é bem adequada. Você reverte para sua <strong>forma original</strong> logo após gastar ou renunciar à última Reserva.</p>\n<p>Todas as mantidas são perdidas no próximo <strong>nascer </strong>ou <strong>pôr do sol</strong>.</p> ",
+      "failure": "<p><strong>1-6: </strong>Reserva 1 + <em>Reação do Mundo</em>.</p>",
+      "partial": "<p><strong>7&ndash;9: </strong>Reserva 1.</p>",
+      "success": "<p><strong>10+:</strong> Reserva 2.</p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Call to The Grove": {
+			"name": "Chamado à Clareira",
+      "description": "<p>Quando você se comunica com os espíritos de <strong>raiz e folha</strong>...</p>\n<p><strong>Dispare <em>Nascido da Terra</em></strong>. Sacrifique seus PRs e/ou efeitos de Ferimentos Graves para despertar a vegetação ao seu redor:</p>\n<ul>\n<li><strong>Sacrifício 1:</strong> uma área pequena.</li>\n<li><strong>Sacrifício 2:</strong> uma área média.</li>\n<li><strong>Sacrifício 3:</strong> uma área grande.</li>\n</ul>\n<p>O \"Bosque\" despertado é capaz de [<em><strong>crescimento não natural</strong></em>], [<em><strong>locomoção lenta</strong></em>] e [<em><strong>ação desajeitada</strong></em>], comportando-se como um <strong>Grupo</strong> do mesmo tamanho da área afetada, até o próximo pôr/nascer do sol. O Bosque faz o que você desejar, mas primeiro role+Intensidade.</p> ",
+      "failure": "<p><strong>1-6:</strong> O Bosque fica [<em><strong>confuso</strong></em>] e [<em><strong>descontrolado</strong></em>] + <em>Reação do Mundo</em>.</p>",
+      "partial": "<p><strong>7-9:</strong> O Bosque fica [<em><strong>confuso</strong></em>].&nbsp;</p>",
+      "success": "<p><strong>10+:</strong> O Bosque obedece.&nbsp;</p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Call to The Oak": {
+			"name": "Chamado ao Carvalho",
+      "description": "<p>Ao se comunicar com os espíritos de <strong>casca e seiva</strong>...</p>\n<p><strong>Dispare <em>Nascido da Terra</em></strong>. Até você realizar um <em><strong>Descanso Longo</strong></em> ou gastar <strong>1 PR</strong> para encerrar o efeito, você possui [<em><strong>carne como madeira de Carvalho-vivo</strong></em>], que é dura, extremamente densa e um terço mais leve que o normal. Mas primeiro, escolha um:</p>\n<ul>\n<li>Se você <strong>abraçar a casca</strong>, sofra os efeitos de 1-6, mas ganhe <strong>3 PE</strong>.</li>\n<li>Se você <strong>montar a seiva</strong>, role+Ousadia.</li>\n</ul> ",
+      "failure": "<p><strong>1-6:</strong> Você está [<em><strong>lento</strong></em>] e [<em><strong>enraizado</strong></em>] no chão, imóvel.</p>",
+      "partial": "<p><strong>7-9:</strong> Você está [<strong>lento</strong>].&nbsp;</p>",
+      "success": "<p><strong>10+:</strong> Sem efeitos adversos.&nbsp;</p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Call to The Primals": {
+			"name": "Chamado aos Primitivos",
+      "description": "<p>Ao exercer controle sobre os elementos primordiais do mundo...</p>\n<p>Escolha <strong>um </strong>elemento e explique o que deseja que ele faça. O Mundo escolherá as condições que precisam ser cumpridas antes de você poder <strong>disparar <em>Nascido da Terra</em></strong>, mas primeiro role+Conhecimento.</p> ",
+      "failure": "<p><strong>1-6:</strong> Três condições.&nbsp;</p>",
+      "partial": "<p><strong>7-9:</strong> Duas condições.&nbsp;</p>",
+      "success": "<p><strong>10+:</strong> Uma condição.&nbsp;</p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Call to The Whispers": {
+			"name": "Chamado aos Sussurros",
+      "description": "<p>Quando você <strong>solicita a assistência</strong> dos espíritos durante um<em><strong> Descanso Longo</strong></em>...</p>\n<p>Realize uma cena de <em><strong>Utilidade </strong></em>e <strong>dispare <em>Nascido da Terra</em></strong>, então role+Conhecimento.</p>\n<p>Você pode obter mantidas adicionais por 5 PE cada. Durante a cena, gaste mantidas para obter serviços do espírito.</p> ",
+      "failure": "<p><strong>1-6:</strong> Mantenha 1 + <em>Reação do Mundo</em>.</p>",
+      "partial": "<p><strong>7-9:</strong> Mantenha 2.&nbsp;</p>",
+      "success": "<p><strong>10+:</strong> Mantenha 3.&nbsp;</p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Child of The Land": {
+			"name": "Filho da Terra",
+      "description": "<p>Ao <em><strong>Jornadear</strong></em>...</p>\n<p>Dentro da sua <strong>Terra Natal</strong>, o território está sempre seguro. Cada jogador pode então optar por descrever uma <strong>Coisa</strong> (como no <strong>passo 1</strong>) para ganhar <strong>1 PE</strong>.</p>\n<p>Após uma <em><strong>Jornada</strong></em>, também fora da sua <strong>Terra Natal</strong>, o Mundo definirá os territórios que você atravessou como simples pessoas. Para cada um, você ganha a marca [<em><strong>Eu conheci ___</strong></em>].</p> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Doppelgänger's Dance": {
+			"name": "Dança do Doppelgänger",
+      "description": "<p>Você pode se transformar na forma de uma pessoa...</p>\n<p>Pagando <strong>PEs </strong>para disparar <em><strong>Chamado à Fera</strong></em> dependendo do nível de familiaridade que você tem com eles. Seu <em><strong>Sinal </strong></em>está sempre presente a menos que você pague o mesmo custo <strong>novamente </strong>para ocultá-lo.</p>\n<ul>\n<li><strong>Estranho: 5 PE.</strong></li>\n<li><strong>Conhecido: 3 PE.</strong></li>\n<li><strong>Confidente: 1 PE.</strong></li>\n</ul> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Embrace No Form": {
+			"name": "Abraçar Sem Forma",
+      "description": "<p>Você pode se transformar na forma de <strong>coisas naturais inanimadas</strong>...</p>\n<p>Ao <strong>rolar <em>Chamado às Feras</em></strong> para transformar seu corpo em uma <strong>quantidade semelhante</strong> de material natural: um tipo específico de planta, um tipo específico de rocha, ou solo, areia, água, fogo, névoa, etc.</p>\n<ul>\n<li>Você pode perceber o ambiente ao seu redor, mas não pode falar.</li>\n<li>Quando <strong>imóvel</strong>, você parece um espécime normal, ou um amontoado compacto de espécimes, da coisa na qual você se transformou.</li>\n<li>Quando <strong>agindo</strong>, você parece vagamente uma forma humanoide que é <strong>[lenta]</strong> e <strong>[esquisita]</strong>.</li><li>Você assume as características físicas da coisa, embora sua massa tenda a não se dispersar a menos que seja usada força, causando dano.</li></ul> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Mark of The Kindred": {
+			"name": "Marca dos Irmãos",
+      "description": "<p>Quando você <strong>marca um animal</strong> com sujeira e sangue...</p>\n<p>Você pode sentir o que eles sentem até que a marca se deteriore naturalmente. Apenas <strong>uma </strong>marca pode existir por vez. Você pode enviar comandos mentais simples ao animal, mas cada um te deixa [<em><strong>distraído</strong></em>] por alguns minutos.</p> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Primeval Tongue": {
+			"name": "Língua Primeva",
+      "description": "<p>Você pode falar a linguagem da natureza...</p>\n<p>Você pode <strong>comunicar-se </strong>com qualquer criatura <strong>sentiente</strong>, sejam pessoas, animais ou até monstros. Quando o faz, descreva como isso acontece.</p> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		}
+	}
+}
