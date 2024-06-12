@@ -21,7 +21,13 @@
         "type": "module",
         "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
         "compatibility": {}
-      }
+      },
+      {
+        "id": "fwrpg-for-pbta",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Rangertheman/fwrpg-for-pbta/0.4.0/module.json",
+        "compatibility": {}
+      }      
     ]
   },
   "authors": [
