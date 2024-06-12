@@ -11,7 +11,7 @@ Você pode obter o material nos links abaixo.
   <tr>
     <th>
       <p align="center">
-        <img width="700" src="docs/demo.webp">
+        <img width="700" src="docs/ficha.webp">
       </p>
     </th>
   </tr>
