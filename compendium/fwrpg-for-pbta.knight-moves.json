@@ -1,0 +1,148 @@
+{
+	"label": "Cavaleiro",
+  "mapping": {
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "failurelabel": "system.moveResults.failure.label",
+    "partiallabel": "system.moveResults.partial.label",
+    "successlabel": "system.moveResults.success.label",    
+    "choices": "system.choices"
+  },
+  
+	"entries": {
+		"Aegis of Valor": {
+			"name": "Égide da Ousadia",
+      "description": "<p>Quando você se coloca em risco para proteger outra pessoa...  </p> <p>Descreva como, em seguida <strong>sofra Dano</strong>, mas primeiro role+Ousadia. </p> ",
+      "failure": "<p><strong>1-6:</strong> Eles sofrem <strong>pouco</strong> dano.</p>",
+      "partial": "<p><strong>7-9:</strong> Eles estão seguros, mas <strong>ainda em perigo</strong>. Ignore os Efeitos Temporários se você gastar <strong>1 XP</strong>. </p>",
+      "success": "<p><strong>10+:</strong> Eles estão seguros e <strong>fora de perigo imediato</strong>. Ignore os <strong>Efeitos Temporários</strong>. </p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",   
+      "choices": "" 
+		},
+		"Authority": {
+			"name": "Autoridade",
+      "description": "<p>Quando você usa sua posição cavalheiresca para<strong> dar uma ordem</strong>, role+Intensidade.<br /><br /></p> ",
+      "failure": "<p><strong>1-6:</strong> Eles escolhem obedecer, recuar ou escalar, mas suas maneiras colocam você em Desvantagem.</p>",
+      "partial": "<p><strong>7-9:</strong> Eles escolhem obedecer, recuar ou escalar.</p>",
+      "success": "<p><strong>10+</strong>: Eles escolhem obedecer, recuar ou escalar, e seu prestígio lhe concede <em><strong>Vantagem</strong></em>.<br><br></p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",   
+      "choices": "" 
+		},
+		"Burning Faith": {
+			"name": "Fé Ardente",
+      "description": "<p>Quando você <strong>Brigar</strong>...</p> <p>Diga ao Mundo se a sua violência é <strong>justa e reta</strong>. Se for, você pode gastar <strong>XPs</strong> para escolher opções adicionais da lista em uma base um-para-um.</p> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",   
+      "choices": "" 
+		},
+		"Ever Onward": {
+			"name": "Sempre em Frente",
+      "description": "<p>Quando você diz a alguém por que é certo e justo enfrentar um perigo...</p> <p>Rolar+**Intensidade**.</p> ",
+      "failure": "<p><strong>1-6:</strong> <em>Reação do Mundo.</em></p>",
+      "partial": "<p><strong>7-9:</strong> Os NPCs acreditam em você, não em suas ideias, mas ainda assim ganham uma <em><strong>Vantagem</strong></em>. O Mundo tomará nota disso. Os PCs ganham <strong>1 XP</strong> ou uma <em><strong>Vantagem</strong></em> se seguirem sua liderança.</p>",
+      "success": "<p><strong>10+:</strong> Os NPCs acreditam em <strong>suas ideias</strong> e ganham uma <em><strong>Vantagem</strong></em>. O Mundo tomará nota disso. Os PCs ganham <strong>1 XP</strong> e uma <em><strong>Vantagem</strong></em> se seguirem sua liderança. </p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",   
+      "choices": "" 
+		},
+		"Hospitaler": {
+			"name": "Hospitalário",
+      "description": "<p>Quando você gasta <strong>tempo</strong> e <em><strong>Suprimentos</strong></em> para tratar os ferimentos de alguém...</p> <p>Escolha um:</p> <ul> <li>Você respeita, admira ou considera essa pessoa um exemplo. Explique o motivo e ganhe uma <em><strong>Vantagem</strong></em>.</li> <li>Você se considera superior a ela. Explique o motivo e ganhe uma <em><strong>Desvantagem</strong></em>.</li> </ul> <p>Agora role+**Conhecimento**.</p> ",
+      "failure": "<p><strong>1-6:</strong><em> Reação do Mundo</em>.</p>",
+      "partial": "<p><strong>7-9:</strong> Aplique <strong>1 HU</strong> a este ou a outro paciente, mas você precisa gastar <strong>1 XP</strong> para fazer isso.</p>",
+      "success": "<p><strong>10+:</strong> Aplique <strong>1 HU</strong> a este ou a outro paciente. </p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",   
+      "choices": "" 
+		},
+		"I Am The Law": {
+			"name": "Eu Sou a Lei",
+      "description": "<p>Quando você <strong>age como árbitro</strong> em uma disputa...  </p> <p>Sua autoridade é aceita acima de qualquer uma local, seja de bom grado ou a contragosto. Torne seu veredito conhecido, então role+**Intensidade**. </p> ",
+      "failure": "<p><strong>1-6:</strong> Sua autoridade vacila e a dissidência se transforma em inquietação e problemas.</p>",
+      "partial": "<p><strong>7-9:</strong> Sua autoridade prevalece e a dissidência é expressa de maneira civilizada. </p>",
+      "success": "<p><strong>10+:</strong> Sua autoridade é inquestionável e a dissidência é engolida em silêncio. </p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",   
+      "choices": "" 
+		},
+		"Knight: Animal Companion": {
+			"name": "Cavaleiro: Companheiro Animal",
+      "description": "<p>Você tem uma conexão com um animal natural que é <strong>leal</strong> a você.</p> <p>O nome do meu companheiro é (7) ____________.</p> <p>Eles são um (3) ____________, que é um (2) ____________ (1) ____________. Eles são (4) ____________, ____________ e treinados para (6) ____________ e ____________. Infelizmente, eles também são (5) ____________ e ____________.</p> <p>Quando você <strong>atribui uma tarefa</strong> ao Companheiro...</p> <p>Se eles têm um <strong>treinamento</strong> adequado, eles o realizam com uma <em><strong>Vantagem</strong></em>. Seu companheiro também pode realizar a ação de <strong>Intervir</strong> sempre que apropriado.</p> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",   
+      "choices": "" 
+		},
+		"Knight's Mount": {
+			"name": "Montaria do Cavaleiro",
+      "description": "<p>Você possui uma <strong>fera leal e altamente treinada</strong>...</p> <p>Você ganha a ação <em><strong>@UUID[Compendium.fwrpg-for-pbta.knight-moves.Item.UN31gxjyaSHqg1JY]{Cavaleiro: Companheiro Animal}</strong></em>. Use-a para criar um animal que você possa montar.</p> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",   
+      "choices": "" 
+		},
+		"Knightly Oaths": {
+			"name": "Juramentos Cavaleirescos",
+      "description": "<p><strong>Você pertence a uma Ordem cavalheiresca.</strong></p> <p>Pertenço à Ordem cavalheiresca do ____________ ____________, jurado a servir o ____________. ____________________________________ ____________________________________</p> <p> </p> <p>Você possui um <strong>valor absoluto</strong> que lhe concede poder. Escolha um:</p> <ul> <li>Como <strong>rejeito a violência</strong>, nenhuma arma comum me ferirá.</li> <li>Como <strong>rejeito as mentiras</strong>, nenhum engano enganará meus sentidos.</li> <li>Como <strong>rejeito táticas covardes e truques</strong>, nenhum oponente me enfrentará sem medo.</li> <li>Como <strong>rejeito a indiferença ao sofrimento alheio</strong>, nenhuma falta de confiança ou compreensão prejudicará minhas palavras.</li> <li>Como <strong>rejeito os prazeres mundanos</strong>, não precisarei de sustento mundano.</li> </ul> <p>Quando você <strong>trai</strong> seu valor absoluto, seu poder é perdido até que você <strong>se redima</strong>. O Mundo lhe dirá como seguindo o movimento <em><strong>Ritual</strong></em> do Ocultista, com quatro condições.</p> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",   
+      "choices": "" 
+		},
+		"Moral Compass": {
+			"name": "Bússola Moral",
+      "description": "<p>Quando <strong>você julga alguém</strong> como desonroso ou desprezível...  </p> <p>Diga por que você os julga assim, o que é ofensivo para você. O Mundo tomará nota disso. Então você escolhe um:</p> <ul> <li>Seja rigoroso e impiedoso, denuncie-os em voz alta; eles recebem a [<em><strong>pecador</strong></em>] <em><strong>Etiqueta</strong></em>.</li> <li>Seja gentil e perdoador, discretamente <strong>ignore</strong>; você ganha <strong>1 XP</strong>.</li> <li>Seja honesto e sábio, conte-lhes sobre uma vez <strong>que você fez o mesmo que eles</strong>; eles recebem a [<em><strong>inseguro</strong></em>] <em><strong>Etiqueta</strong></em> e você ganha <strong>3 XP</strong>.</li> </ul> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",   
+      "choices": "" 
+		},
+		"Paragon": {
+			"name": "Paragon",
+      "description": "<p>Sua virtude cresce em <strong>fervor e poder</strong>...</p> <p>Selecione um segundo <strong>valor absoluto</strong> da sua lista. Trair qualquer um deles faz com que você perca o acesso a <strong>todos</strong> os seus poderes até que se redima.</p> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",   
+      "choices": "" 
+		},
+		"Quest": {
+			"name": "Missão",
+      "description": "<p>Quando <strong>você aceita uma tarefa</strong> confiada a você...</p> <p>Reserve um momento para refletir sobre os <strong>meios</strong> e o <strong>objetivo</strong> da tarefa, depois diga se você os considera honrosos ou não, e <strong>explique por quê</strong>. O Mundo tomará nota disso.</p> <ul> <li>Se os meios ou o objetivo forem <strong>incertos</strong> ou <strong>desonrosos</strong>, responda isto: <em>por que você vinculou sua honra a uma causa duvidosa</em>? O Mundo também tomará nota disso.</li> <li>Se tanto os meios quanto o objetivo forem honrosos, você ganha <strong>uma <em>Vantagem</em> contínua</strong> sobre qualquer ação diretamente voltada para cumprir sua missão.</li> </ul> <p>Se você completar a missão tanto em ato quanto em espírito, marque <strong>1 Crescimento</strong>. Se você falhar ou renunciar à missão, marque <strong>1 Crescimento</strong>, mas você também <strong>trai</strong> seus valores absolutos.</p> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",   
+      "choices": "" 
+		}
+	}
+}

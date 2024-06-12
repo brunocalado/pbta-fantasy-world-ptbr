@@ -1,0 +1,138 @@
+{
+	"label": "Trovador",
+  "mapping": {
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "failurelabel": "system.moveResults.failure.label",
+    "partiallabel": "system.moveResults.partial.label",
+    "successlabel": "system.moveResults.success.label",    
+    "choices": "system.choices"
+  }, 
+  
+	"entries": {
+		"Arcane Art": {
+			"name": "Arte Arcana",
+      "description": "",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Battle Steward": {
+			"name": "Mordomo de Batalha",
+      "description": "",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Charming and Open": {
+			"name": "Encantador e Sincero",
+      "description": "",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Devious": {
+			"name": "Pérfido",
+      "description": "",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Ear For Magic": {
+			"name": "Ouvido para Magia",
+      "description": "",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Eldritch Tones": {
+			"name": "Tons Eldritch",
+      "description": "",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Reputation": {
+			"name": "Reputação",
+      "description": "",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Show Off": {
+			"name": "Exibido",
+      "description": "",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Swashbuckler": {
+			"name": "Espadachim",
+      "description": "",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Up To Eleven": {
+			"name": "Até Onze",
+      "description": "",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		},
+		"Well-Traveled": {
+			"name": "Bem Viajado",
+      "description": "",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+		}
+	}
+
+}

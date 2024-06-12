@@ -1,0 +1,138 @@
+{
+	"label": "Inventor",
+  "mapping": {
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "failurelabel": "system.moveResults.failure.label",
+    "partiallabel": "system.moveResults.partial.label",
+    "successlabel": "system.moveResults.success.label",    
+    "choices": "system.choices"
+  },
+  
+	"entries": {
+		"Academician": {
+			"name": "Acadêmico",
+      "description": "<p><strong>Você é um estudante das leis que governam o mundo natural...  </strong></p> <p>Eu sou um (1) ________ ________ criador de (2) ________ persuasão. Por causa disso, as pessoas me tratam com (3) ________. Com o tempo, aprendi o valor da (4a) ________ e a importância da (4b) ________, mas também a me perguntar sobre (4c) ________.</p> <p> </p> <p>Quando você <strong>trabalha em algo</strong> usando a ciência...</p> <p>Descreva como você faz isso e se o projeto é uma Pesquisa ou uma Construção. O Mundo definirá de 1 a 4 condições:</p> <ul> <li>Leva alguns... quartos de hora / horas / dias / semanas / meses. (quando <strong>ignorado</strong> é apenas <strong>reduzido</strong>)</li> <li>Você falta algo: ferramentas especiais, materiais raros, conhecimento obscuro.</li> <li>Você precisa de ajuda de __.</li> <li>Aqueles envolvidos estão expostos ao perigo.</li> <li>Reorganize o trabalho em vários projetos.</li> </ul> <p>Agora role+Conhecimento.</p> "
+,
+      "failure": "<p><strong>1-6:</strong> Seu trabalho é interrompido + <em>Reação do Mundo</em>. </p>",
+      "partial": "<p><strong>7-9:</strong> Faça 1 pergunta extra / ignore 1 condição. </p>",
+      "success": "<p><strong>10+:</strong> Faça 2 perguntas extras / ignore 2 condições. </p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!", 
+      "choices": ""
+		},
+		"Analytical": {
+			"name": "Analítico",
+      "description": "<p><strong>Quando você Observar o Ambiente... </strong></p> <p>Você pode descrever <strong>considerações com aparência científica</strong> para obter <strong>1 pergunta extra</strong>, ao custo de <strong>1 XP</strong> por cada consideração.</p> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!", 
+      "choices": ""
+		},
+		"Arcanotechnics": {
+			"name": "Arcanotécnica",
+      "description": "<p>Você descobriu como misturar <strong>ciência e magia</strong>...</p> <p>Você tem um <strong>entendimento rudimentar de Alquimia</strong> (química mágica), <strong>Talismongeria </strong>(engenharia mágica), e <strong>Taumaturgia</strong> (biologia mágica). Agora, quando você <strong>trabalha em algo</strong>, você pode alcançar resultados que seriam difíceis ou impossíveis apenas pela ciência.</p> <p><strong>Ative <em>@UUID[Compendium.fwrpg-for-pbta.maker-moves.Item.1Ej6GWMTvWTrEEKi]{Acadêmico}</em></strong> e descreva quais técnicas mágicas e materiais você pretende incluir em seu trabalho para aprimorá-lo:</p> <ul> <li>O trabalho tem um custo em <strong>XP</strong> igual ao número inicial não modificado de condições.</li> <li>O Mundo pode escolher condições tanto das ações do <em><strong>Inventor </strong></em>quanto do Ocultista <em><strong>Ritual</strong></em>.</li> </ul> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!", 
+      "choices": ""
+		},
+		"Eidetic Memory": {
+			"name": "Memória Eidética",
+      "description": "<p>Quando <strong>lembrar </strong>dos detalhes de algo...</p> <p>Você pode ativar <em><strong>Ler Alguém</strong></em> ou <em><strong>Observar o Ambiente</strong></em>, embora você não possa interagir com nada.</p> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!", 
+      "choices": ""
+		},
+		"Esteemed Colleagues": {
+			"name": "Colegas Estimados",
+      "description": "<p>Quando você diz que <strong>há um cientista</strong> na comunidade local...</p> <p>É verdade. <strong>Nomeie</strong> eles, diga se você os conhece <strong>pessoalmente</strong> ou por <strong>boatos</strong>, e expresse um sentimento pessoal ou opinião sobre eles.</p> <p>Se você então encontrar, role+Intensidade.</p> ",
+      "failure": "<p><strong>1-6:</strong> Eles parecem hostis e fazem acusações ou causam problemas.</p>",
+      "partial": "<p><strong>7-9:</strong> Eles parecem ocupados e pedem por <strong>conselho</strong> ou apoio. </p>",
+      "success": "<p><strong>10+:</strong> Eles parecem <strong>amigáveis</strong> e oferecem ajuda ou oportunidade. </p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!", 
+      "choices": ""
+		},
+		"Eureka!": {
+			"name": "Eureka!",
+      "description": "<p>Quando você quebra a cabeça para resolver um <strong>Problema</strong>...</p> <p>Se você gastar <strong>3 XP</strong>, o Mundo irá <strong>apontar</strong> uma possível solução, e você ganha uma <em><strong>Vantagem</strong></em> para realizá-la.</p> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!", 
+      "choices": ""
+		},
+		"High Magister": {
+			"name": "Alto Magíster",
+      "description": "<p>Você possui domínio de um campo científico...</p> <p>Escolha sua especialização:</p> <ul> <li><strong>Química</strong>: a ciência das substâncias e da matéria elementar.</li> <li><strong>Engenharia</strong>: a ciência das coisas e dos materiais inorgânicos.</li> <li><strong>Biologia</strong>: a ciência dos seres vivos e da matéria biológica.</li> </ul> <p>Quando você <strong>trabalha em algo</strong> que se enquadra na sua especialização, <strong>ative </strong><em><strong>Academista </strong></em>e escolha um:</p> <ul> <li>Sua <strong>Construção </strong>tem um defeito a menos.</li> <li>Sua <strong>Pesquisa </strong>é detalhada.</li> <li>Ignore uma condição.</li> </ul> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!", 
+      "choices": ""
+		},
+		"I'm Too Old For This": {
+			"name": "Sou Velho Demais Para Isso",
+      "description": "<p>Quando você sofreria <strong>Dano</strong>...</p> <p>Você pode escolher reduzi-lo obtendo <em><strong>Tags </strong></em>em vez de gastar <strong>HPs</strong>. As <em><strong>Tags </strong></em>são, em ordem: [<em><strong>esquivo</strong></em>], [<em><strong>indigno</strong></em>], [<em><strong>covarde</strong></em>].</p> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!", 
+      "choices": ""
+		},
+		"Junk Whisperer": {
+			"name": "Sussurrador de Tralhas",
+      "description": "<p>Quando <strong>trabalhando em</strong> uma ferramenta ou dispositivo...</p> <p>Você pode fazer isso mais rápido e mais barato usando <strong>materiais de sucata</strong> e soluções <strong>precárias</strong>. <strong>Ative <em>Acadêmico</em></strong> e, após a rolagem, descreva como você economiza usando materiais de reparo, componentes subótimos e práticas precárias.</p> <p>Sua invenção improvisada é [<em><strong>feia</strong></em>]. Você pode aplicar Tags adicionais, cada uma permitindo que você ignore uma condição de fabricação: <em><strong>[uso único</strong></em>], [<em><strong>pode explodir</strong></em>], [<em><strong>vazamento perigoso</strong></em>], [<em><strong>impreciso</strong></em>], [<em><strong>desajeitado</strong></em>], [<em><strong>consome recursos para usar</strong></em>] (geralmente equivalente a <strong>1 <em>Suprimento</em></strong>).</p> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!", 
+      "choices": ""
+		},
+		"Mentat": {
+			"name": "Mentat",
+      "description": "<p>Quando você tenta <strong>prever</strong> os desenvolvimentos futuros de uma <strong>situação</strong>...</p> <p>Explique quais elementos você está considerando, tanto de suas experiências passadas e Conhecimento quanto de observações atuais, e então role+Conhecimento.</p> ",
+      "failure": "<p><strong>1-6:</strong> <em>Reação do Mundo</em>.</p>",
+      "partial": "<p><strong>7-9:</strong> O Mundo revela uma ocorrência futura de uma <strong>Ampulheta</strong> relevante.</p>",
+      "success": "<p><strong>10+:</strong> O Mundo revela uma <strong>Ampulheta</strong> relevante. </p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!", 
+      "choices": ""
+		},
+		"Optimization": {
+			"name": "Otimização",
+      "description": "<p>Quando você fornece <strong>observações pseudo-científicas</strong> para “melhorar” as ações de alguém...</p> <p><em><strong>Intervir </strong></em>e, antes de eles rolarem, se você gastar <strong>1 <em>Suprimento</em></strong> em materiais ou ferramentas para melhor apoiar suas observações, em vez de uma <em><strong>Vantagem </strong></em>você melhora o resultado deles em um nível. Se isso não for possível, ambos ganham <strong>2 XP</strong>.</p> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!", 
+      "choices": ""
+		}
+	}
+}

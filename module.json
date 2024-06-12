@@ -1,0 +1,47 @@
+{
+  "id": "pbta-fantasy-world-ptbr",
+  "title": "Fantasy World - Tradução para Português (Brasil)",
+  "description": "<p>Adiciona o idioma Português (Brasil) para o sistema de jogo Fantasy World.</p>",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pbta",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Mestre Digital",
+      "url": "https://www.youtube.com/c/MestreDigital",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "babele.js"
+  ],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "url": "https://github.com/brunocalado/pbta-fantasy-world-ptbr",
+  "manifest": "https://raw.githubusercontent.com/brunocalado/pbta-fantasy-world-ptbr/main/module.json",
+  "download": "https://codeload.github.com/brunocalado/pbta-fantasy-world-ptbr/zip/main"
+}

@@ -1,0 +1,149 @@
+{
+	"label": "Ocultista",
+  "mapping": {
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "failurelabel": "system.moveResults.failure.label",
+    "partiallabel": "system.moveResults.partial.label",
+    "successlabel": "system.moveResults.success.label",    
+    "choices": "system.choices"
+  },
+  
+  "entries": {
+    "Arcana Unearthed": {
+      "name": "Arcana Desenterrada",
+      "description": "<p>Você detém <strong>conhecimento arcano</strong> que permite manipular forças mágicas...</p> <p> </p> <p>Eu detenho o conhecimento arcano do _______________ _______________ para _______________ _______________.</p> <p>Meu mestre foi: ____________________________________</p> <p> </p> <p><strong>Quando você realiza Magia Menor...</strong></p> <p>Explique seu <strong>intento</strong> e verifique sua viabilidade contra os<strong> limites da magia menor</strong>. Uma vez que você e o Mundo concordem, role+Componentes.</p> <p>Selecione <em><strong>DESVANTAGEM</strong></em> e quando solicitado, adicione o número de <strong>+COMPONENTES</strong> que você usa abaixo.</p> <ul> <li>A magia é selvagem: você sempre obtém uma Desvantagem no rolamento.</li> <li>O esforço lhe dá controle. Responda às perguntas de até três Componentes: <ul> <li><strong>Material</strong>: seu feitiço é [<em><strong>lento</strong></em>]. Qual item você está usando? É um talismã permanente ou ingrediente consumível? Se raro/precioso, gaste <em><strong>Suprimentos</strong></em> para obter uma <em><strong>Vantagem</strong></em>.</li> <li><strong>Vocal</strong>: seu feitiço é [<em><strong>alto</strong></em>]. Você está pronunciando palavras, um canto ou outros sons? O que eles significam? Como eles soam?</li> <li><strong>Somático</strong>: seu feitiço é [<em><strong>desajeitado</strong></em>]. Ambas as suas mãos estão ocupadas, fazendo o quê? O que os gestos devem significar? Como eles parecem? </li> </ul> </li> </ul> </br>Verifique o resultado do rolamento: </br>10+: Seu feitiço funciona corretamente. </br>7-9: Seu feitiço funciona imperfeitamente, escolha um: </br>• Sofrer uma Desvantagem. </br>• Sofrer uma Reação Aberta. </br>• Tornar-se [contaminado] em corpo e mente - como isso parece? </br>1-6: Seu feitiço funciona de maneira imprevisível + Reação do Mundo.",
+      "failure": "<p><strong>1-6:</strong> Seu feitiço funciona de maneira imprevisível + <em>Reação do Mundo</em>.</p> ",
+      "partial": "<p><strong>7-9:</strong> Seu feitiço funciona imperfeitamente, escolha um:</p> <ul> <li>Sofrer uma Desvantagem</li> <li>Sofrer uma Reação Aberta.</li> <li>Tornar-se [<em><strong>contaminado</strong></em>] em corpo e mente - como isso parece? </li> </ul> ",
+      "success": "<p><strong>10+:</strong> Seu feitiço funciona corretamente. </p> ",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""  
+    },
+    "Darkness Within": {
+      "name": "Escuridão Interior",
+      "description": "<p>Quando você usa <strong>Magia Menor</strong>...</p> <p>Adicione essas opções à lista de 7-9:</p> <ul> <li>Se [<strong>contaminado</strong>] você também ganha [<strong>impuro</strong>] e +1 Poder.</li> <li>Se [<strong>impuro</strong>] você também ganha [<strong>vil</strong>] e +1 Poder.</li> </ul> <p><br />Durante a jogada de <strong>Fim de Sessão</strong>.</p> <p>Se você está [<strong>impuro</strong>] ou [<strong>vil</strong>] use essas etapas alternativas:</p> <ul> <li>1.4 - Se o seu personagem tomou uma atitude <strong>violenta</strong> para lidar com isso, diga como e marque <strong>1 Crescimento</strong>.</li> <li>2.5 - esta etapa não está disponível para você.</li> </ul>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Earth's Veins": {
+      "name": "Veias da Terra",
+      "description": "<p>Quando você adivinha a localização de uma fonte de poder mágico...</p> <p>Você sempre encontra uma linha ley que a conduz:</p> <ul> <li>Descreva as palavras, ações e materiais que você emprega para discernir o fluxo e refluxo de magia ao seu redor.</li> <li>Descreva que tipo de poder você espera encontrar oferecendo uma cor, um cheiro, uma sensação tátil e uma emoção relacionada a ele.</li> <li>O Mundo tomará nota disso e então decidirá quais elementos são verdadeiros, oferecendo uma alternativa para os outros.</li> </ul> <p>Em seguida, você joga +Vigilância.</p> ",
+      "failure": "<p><strong>1-6:</strong> <em>Reação do Mundo</em>.</p>",
+      "partial": "<p><strong>7-9:</strong> você pode <em>Jornada</em> até a fonte, com direções vagas.</p>",
+      "success": "<p><strong>10+:</strong> você pode <em>Jornada</em> até a fonte e conhece o caminho.</p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Familiar": {
+      "name": "Familiar",
+      "description": "<p>Você pode criar um vínculo místico com um animal natural...</br> Use o movimento do Viajante chamado Companheiro Animal para definir seu familiar, então jogue +Intensidade.</br> • 10+: o vínculo é forte, adicione [fiel] ao familiar.</br> • 7-9: o vínculo é fraco, adicione [teimoso] ao familiar.</br> • 1-6: o vínculo é falho, adicione [ressentido] ao familiar.</br></br> Se o vínculo se quebra por qualquer motivo, você sofre ferimento Grave devido ao contragolpe mágico. Você só pode ter um vínculo por vez.</p>",
+      "failure": "• 1-6: o vínculo é falho, adicione [ressentido] ao familiar.</br></br>",
+      "partial": "• 7-9: o vínculo é fraco, adicione [teimoso] ao familiar.</br>",
+      "success": "• 10+: o vínculo é forte, adicione [fiel] ao familiar.</br>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Mark of Power": {
+      "name": "Marca do Poder",
+      "description": "<p>Quando você ostenta sua reputação como um Ocultista...</p> <p>Você pode então Persuadir com <em><strong>Vantagem</strong></em>. O Mundo anotará quem, ao ouvir você, pode sentir medo, inveja ou inimizade pelo poder que você representa.</p>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Occultist: Animal Companion": {
+      "name": "Ocultista: Companheiro Animal",
+      "description": "<p>Você tem uma conexão com um animal natural que é fiel a você.</p> <p>O nome do meu companheiro é (7) ____________.</p> <p>É um(a) (3) ____________, que é um(a) (2) ____________ (1) ____________. Ele(a) é (4) ____________, ____________ e treinado(a) para (6) ____________ e ____________. Infelizmente, também é (5) ____________ e ____________.</p> <p>Quando você designa uma tarefa para o Companheiro...</p> <p>Se ele tiver o treinamento adequado, realiza a tarefa com uma <em><strong>Vantagem</strong></em>. Seu companheiro também pode usar o movimento Intervir sempre que apropriado.</p>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Pushing Against The Universe": {
+      "name": "Desafiando o Universo",
+      "description": "<p>Quando você usa Magia Menor...</p> <p>Se você rolar um Benefício, pode sofrer efeitos negativos extras da lista de 7-9 além dos indicados pelo resultado do teste. Cada efeito extra concede um ponto na Tabela de Poder.  Se fizer isso, você deve descrever sua magia como [<em><strong>barulhenta</strong></em>] e [<em><strong>ostentosa</strong></em>].</p> </br><p><strong>Tabela de Magia Menor</strong></br> Cada fortalecimento gasto permite ao Ocultista modificar um parâmetro em um nível:</br> • Duração: [rápida] (segundos) >> [persistente] (minutos) >> [duradoura] (horas)</br> • Força: [moderada] (Temporária) >> [violenta] (Séria) >> [devastadora] (Mortal)</br> • Alcance: [toque] >> [próximo] >> [distante]</br> • Alvo: [indivídual] >> [pequeno grupo] >> [grupo médio]</p>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Ritual": {
+      "name": "Ritual",
+      "description": "<p>Quando você executa um Grande Ato de Magia...</p> <p>Conte ao Mundo o que você está tentando realizar. Rituais são sempre possíveis, mas requerem pelo menos algumas horas de tempo, e o Mundo lhe dará de uma a quatro condições:</p> <ul> <li>Levará dias/semanas/meses.</li> <li>Você precisará obter/construir/estudar __.</li> <li>Você precisará da ajuda de __.</li> <li>Será uma versão limitada e pouco confiável.</li> <li>Você correrá o risco de __.</li> <li>Adicione __ ao local do ritual.</li> <li>Você terá que desencantar __.</li> <li>Exigirá riquezas que você não possui.</li> </ul> <p>Ao realizar o ritual enquanto acessa uma fonte de grande poder mágico, você pode ignorar um requisito de sua escolha.</p>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Sacrifice": {
+      "name": "Sacrifício",
+      "description": "<p>Quando você usa Magia Menor...</p> <p>Você pode descrever deliberadamente ferir seu personagem de forma ritualística como parte do componente SOMÁTICO para ganhar pontos na Tabela de Poder da Magia Menor:</p> <ul> <li>Qualquer coisa que cause até Ferimento Temporário permite comprar 1 Fortalecimento por cada 3 PE ou 1 PR.</li> <li>Cada efeito de dano Grave concede 3 Fortalecimento.</li> <li>Qualquer efeito de dano Mortal força todos os parâmetros de PODER ao máximo.</li> </ul></br><p><strong>Tabela de Magia Menor</strong></br> Cada fortalecimento gasto permite ao Ocultista modificar um parâmetro em um nível:</br> • Duração: [rápida] (segundos) >> [persistente] (minutos) >> [duradoura] (horas)</br> • Força: [moderada] (Temporária) >> [violenta] (Séria) >> [devastadora] (Mortal)</br> • Alcance: [toque] >> [próximo] >> [distante]</br> • Alvo: [indivídual] >> [pequeno grupo] >> [grupo médio]</p>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Strange Wisdom": {
+      "name": "Sabedoria Estranha",
+      "description": "<p><strong>Quando você oferece conselhos a alguém... </strong></p> <p>Se você transmite o conselho como uma lição, metáfora ou história diretamente ligada ao seu saber secreto, você ganha 1 PE e aqueles que escutam sua sabedoria recebem uma <em><strong>Vantagem</strong></em> ao colocá-la em prática.</p>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Talismonger": {
+      "name": "Talismã",
+      "description": "<p>Quando você termina de <strong>criar </strong>um item que você <strong>completamente </strong>fez por conta própria...</p> <p>Se você realizar <strong>Magia Menor</strong>, seu efeito não ocorrerá aqui e agora, mas será <strong>armazenado </strong>no item criado. Qualquer pessoa que segure o item pode, explicitamente desejando fazê-lo, liberar e direcionar seu efeito mágico.</p> <p>Depois que isso acontece, o item se torna arruinado, quebrado e mundano.</p> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+    },
+    "Tinkerer": {
+      "name": "Engenhoqueiro",
+      "description": "<p>Quando você tenta descobrir as propriedades de um item misterioso...</p>\n<p>Descreva rapidamente como você cutuca e examina o objeto. Você é cuidadoso ou bruto? Está usando ferramentas ou apenas as mãos? Em seguida, jogue + Conhecimento. O Mundo responderá suas perguntas com honestidade. </p>",
+      "failure": "<p><strong>1-6:</strong> Pergunte 1 coisa + <em>Reação do Mundo</em>.&nbsp;</p>",
+      "partial": "<p><strong>7-9:</strong> Pergunte 2 coisas.&nbsp;</p>",
+      "success": "<p><strong>10+:</strong> Pergunte 3 coisas.&nbsp;</p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""
+  }
+  }
+
+}

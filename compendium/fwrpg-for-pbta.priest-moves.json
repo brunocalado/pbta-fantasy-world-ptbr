@@ -1,0 +1,137 @@
+{
+	"label": "Clérigo",
+  "mapping": {
+    "description": "system.description",
+    "failure": "system.moveResults.failure.value",
+    "partial": "system.moveResults.partial.value",
+    "success": "system.moveResults.success.value",
+    "failurelabel": "system.moveResults.failure.label",
+    "partiallabel": "system.moveResults.partial.label",
+    "successlabel": "system.moveResults.success.label",    
+    "choices": "system.choices"
+  },
+  
+  "entries": {
+    "Acolyte": {
+      "name": "Acolito",
+      "description": "<p>Você cultua uma divindade.</p>\n<p>Eu sou um sacerdote(a) de ____________, deus(a) de ____________. Seu símbolo é ____________ e eu o carrego na forma de um(a) ____________. <br /><br />Quando você realiza um <strong>ritual de sua religião</strong>...</p>\n<p>Dê um <strong>nome</strong> a ele. Explique quais gestos, palavras e objetos fazem parte dele. Explique seu significado e propósito.</p>\n<ul>\n<li>Se você estiver sozinho(a), o Mundo tomará nota de suas expectativas.</li>\n<li>Se você estiver na frente de outras pessoas, você também escolhe um:\n<ul>\n<li>Gaste <strong>0 PE</strong> para impressioná-los: você ganha uma <em><strong>Vantagem</strong></em> para <em><strong>Persuadir</strong></em> ou <em><strong>Ameaçar</strong></em>.</li>\n<li>Gaste <strong>1 PE</strong> para fazê-los se sentir abençoados: eles ganham uma <em><strong>Vantagem</strong></em>.</li>\n<li>Gaste <strong>1 PE</strong> para fazê-los se sentir julgados: eles ganham uma <em><strong>Desvantagem</strong></em>.</li>\n</ul>\n</li>\n</ul>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": ""  
+    },
+    "Anathema": {
+      "name": "Anátema",
+      "description": "<p>Quando você reza por retrição divina...</p>\n<p>Durante a cena, se você usar violência contra alguém, ela será [<em><strong>desordenada</strong></em>], [<em><strong>barulhenta</strong></em>] e [<em><strong>brutal</strong></em>]. Gaste <strong>1 PE</strong> para afetar até um [<em><strong>Grupo Pequeno</strong></em>].</p>\n<p>Depois de causar dano, jogue +Intensidade: </p> ",
+      "failure": "<p><strong>1-6: </strong>Você se sente <strong>culpado(a)</strong>. Ganhe uma <em><strong>Desvantagem</strong></em> ou diga como se sente por não saber/entender a vontade de sua divindade. O <em>Anátema</em> pára.</p>",
+      "partial": "<p><strong>7-9:</strong> Você se sente <strong>em dúvida</strong>. Escolha um...</p>\n<ul>\n<li><strong>Insistir</strong>. Pague <strong>3 PE</strong> ou diga por que sua divindade desaprovaria essa violência. O <em>Anátema</em> continua.</li>\n<li><strong>Cede</strong>. Ganhe <strong>3 PE</strong> se disser por que sua divindade desaprovaria essa violência. O <em>Anátema</em> pára.</li>\n<li><strong>Fica em Silêncio</strong>. Marque <strong>1 Crescimento</strong> (uma vez por sessão) ou <strong>1 PE</strong> se disser como se sente por não receber respostas de sua divindade. O <em>Anátema</em> pára.&nbsp;</li>\n</ul>",
+      "success": "<p><strong>10+: </strong>Você se sente <strong>justificado(a)</strong>. O <em>Anátema</em> continua.</p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": "" 
+    },
+    "By God Anointed": {
+      "name": "Ungido por Deus",
+      "description": " <p>Quando você realiza um ritual de sua religião durante um Descanso Longo...</p>\n<p><strong>Ativa <em>Acolito</em></strong>, se alguém se juntar à sua cerimônia, você e essa pessoa ganham <strong>1 PE</strong>. Ela precisa descrever ao Mundo como se sente sobre sua religião e ritual e, se acredita ou quer acreditar, é [<em><strong>ungida</strong></em>].</p>\n<p>Quando um personagem [<em><strong>ungido</strong></em>] ora por proteção ou ajuda, descreva se e como ele sente a presença da divindade do Sacerdote. Em seguida, ele perde a <em><strong>Marca</strong></em> e o Mundo imediatamente realiza uma <em>Reação</em> com a intenção de <strong>ajudá-lo</strong>.</p>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": "" 
+    },
+    "Faith is My Strength": {
+      "name": "Fé é Minha Força",
+      "description": "<p>Quando você reza para ajudar alguém com uma tarefa...</p>\n<p>Gaste<strong> 1 PE</strong>. Você sempre terá uma intuição sobre o que essa pessoa sente:</p>\n<ul>\n<li>Se ela acredita na sua divindade, ganha uma <em><strong>Vantagem</strong></em>.</li>\n<li>Se não acredita, ganha uma <em><strong>Desvantagem</strong></em>.</li>\n<li>Se está honestamente em conflito, ela ganha <strong>1 PE</strong>.</li>\n</ul>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": "" 
+    },
+    "God's Herald": {
+      "name": "Arauto de Deus",
+      "description": "<p>Quando você ergue seu <strong>símbolo divino</strong>...</p>\n<p>Se invocar a proteção de sua divindade através dele, gaste <strong>PE</strong> e então use <strong>Ameaçar</strong> em todas as criaturas hostis dentro do alcance.</p>\n<ul>\n<li>Gaste <strong>0 PE</strong>: alcance de [<strong>mão</strong>], com força <strong>Temporária</strong>.</li>\n<li>Gaste <strong>1 PE</strong>: alcance [<strong>próximo</strong>], com força <strong>Temporária</strong>.</li>\n<li>Gaste <strong>2 PE</strong>: alcance [<strong>alcance</strong>], com força <strong>Temporária</strong>.</li>\n<li>Gaste <strong>5 PE</strong>: alcance [<strong>alcance</strong>], com força <strong>Séria</strong>.</li>\n</ul>",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": "" 
+    },
+    "Guidance": {
+      "name": "Orientação",
+      "description": "<p>Quando você pede conselhos e orientações ao seu deus...</p> <p>Diga ao Mundo do que você teme. Qual é o pior que poderia acontecer se você falhar ou escolher mal? Então, <strong>ouça o seu coração</strong> e escolha uma opção:</p> <ul> <li>Ganhe <strong>1 PE</strong>. Descreva o que <strong>o coração</strong> diz que você deveria fazer. Se o fizer, ganhe uma <em><strong>Vantagem</strong></em>.</li> <li>Pergunte ao Mundo o que <strong>o coração</strong> diz que você deveria fazer. Se o fizer, ganhe uma <em><strong>Vantagem</strong></em>.</li> <li><strong>Seu coração</strong> não oferece direção, seu deus está em silêncio. Descreva como isso se sente e por que você acha que está acontecendo, então marque <strong>1 Crescimento</strong> (uma vez por sessão) ou <strong>1 PE</strong>.</li> </ul> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": "" 
+    },
+    "Lead The Flock": {
+      "name": "Conduzir o Rebanho",       "description": "<p>Quando você <strong>prega</strong> para uma multidão...</p> <p>Role+Intensidade.</p><p>Como efeito do discurso, a multidão, um por um, tomará ações de sua escolha: </br> • Apresentar alguém.</br> • Apresentar algo.</br> • Unir-se e lutar por você como grupo.</br> • Cair em um frenesi de alegria, tristeza, raiva, luxúria ou outra emoção intensa, de sua escolha.</br> • Voltar silenciosamente às suas vidas.</p>",
+      "failure": "<p><strong>1-6: </strong><em>Reação do Mundo</em>.</p>",
+      "partial": "<p><strong>7-9:</strong> 1 ação.&nbsp;</p>",
+      "success": "<p><strong>10+: </strong>2 ações.&nbsp;</p>",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": "" 
+    },
+    "Messiah": {
+      "name": "Messias",
+      "description": "<p>Você é um <strong>líder carismático</strong> entre os crentes...</p> <p>Você tem um [<em><strong>pequeno grupo</strong></em>] de [<em><strong>cidadãos</strong></em>] [<em><strong>necessitados</strong></em>] que confiam e apoiam você. Escolha dois:</p> <ul> <li>Eles formam um [<em><strong>grupo médio</strong></em>].</li> <li>Alguns são comerciantes [<em><strong>ricos</strong></em>].</li> <li>Alguns são nobres [<em><strong>influentes</strong></em>].</li> <li>Alguns têm experiência [<em><strong>militar</strong></em>].</li> <li>Alguns têm formação [<em><strong>acadêmica</strong></em>].</li> <li>Eles são [<em><strong>nômades</strong></em>] que seguem suas viagens.</li> </ul> <p>Em seguida, escolha um:</p> <ul> <li>Alguns são [<em><strong>agitadores</strong></em>] que frequentemente causam problemas.</li> <li>Alguns são [<em><strong>vulneráveis</strong></em>]: idosos, crianças, doentes e desfavorecidos.</li> <li>Alguns são [<em><strong>desleais</strong></em>] oportunistas dispostos a explorá-lo.</li> <li>O grupo tem um inimigo [<em><strong>ostensivo</strong></em>] e [poderoso].</li> <li>O grupo tem um inimigo [<em><strong>invisível</strong></em>] e [<em><strong>ardiloso</strong></em>].</li> </ul> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": "" 
+    },
+    "Prayer For The Departed": {
+      "name": "Oração pelos Falecidos",
+      "description": "<p>Ao realizar um <strong>ritual da sua religião</strong> para alguém que está morrendo em sua presença...</p> <p><strong>Ativa <em>Acolito</em></strong>, então absolve ou condena-os. Eles expressarão de alguma forma como se sentem honestamente: sobre o seu julgamento, ou a vida deles até agora, ou a iminência da morte deles.</p> <p>Você pode gastar <strong>3 PE</strong> para que seu julgamento lhes conceda uma <em><strong>Vantagem</strong></em> ou <em><strong>Desvantagem</strong></em> respectivamente. Isso pode afetar o <strong>Epílogo</strong> deles.</p> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": "" 
+    },
+    "Sacred Ground": {
+      "name": "Terra Sagrada",
+      "description": "<p>Ao realizar um <strong>ritual da sua religião</strong> para abençoar um <strong>pequeno</strong> local...</p> <p><strong>Ative Acolito</strong>.</p> <ul> <li>A área é [<em><strong>sagrada</strong></em>] e [<em><strong>segura</strong></em>] desde que <strong>verdadeiros crentes</strong> do seu culto habitam nela.</li> <li>Crie <strong>mais uma <em>Tag</em></strong> para representar a influência reconhecível da sua divindade sobre a terra. Se você gastar <strong>3 PE</strong>, esse efeito permanecerá indefinidamente.</li> <li>Diga o que poderia constituir um ato de <strong>blasfêmia</strong> para a sua divindade. Se tal ato ocorrer dentro ou próximo do local abençoado, todas as <em><strong>Tags</strong></em> são removidas ou invertidas pelo Mundo.</li> </ul> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": "" 
+    },
+    "Signs and Portents": {
+      "name": "Sinais e Portentos",
+      "description": "<p>Ao <strong>testemunhar</strong> um evento que você considera significativo...</p> <p>Diga ao Mundo como você vê o evento ecoando o <strong>Conceito</strong> ou <strong>Símbolo</strong> da sua divindade, e se é um presságio <strong>bom</strong> ou <strong>ruim</strong>. Você <strong>ganha 1 PE</strong> e o Mundo irá estabelecer ou atualizar uma <strong>Ampulheta</strong> inspirada por ele.</p> ",
+      "failure": "",
+      "partial": "",
+      "success": "",
+      "failurelabel": "Revés",
+      "partiallabel": "Benefício Menor",
+      "successlabel": "Grande Benefício!",
+      "choices": "" 
+    }
+  }
+
+}
