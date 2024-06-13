@@ -49,5 +49,19 @@
   ],
   "url": "https://github.com/brunocalado/pbta-fantasy-world-ptbr",
   "manifest": "https://raw.githubusercontent.com/brunocalado/pbta-fantasy-world-ptbr/main/module.json",
-  "download": "https://codeload.github.com/brunocalado/pbta-fantasy-world-ptbr/zip/main"
+  "download": "https://codeload.github.com/brunocalado/pbta-fantasy-world-ptbr/zip/main",
+
+  "packs": [
+    {
+      "label": "Fantasy World - PTBR",
+      "type": "Scene",
+      "name": "fantasy-world-ptbr",
+      "path": "packs/fantasy-world-ptbr",
+      "system": "pbta",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]  
 }
