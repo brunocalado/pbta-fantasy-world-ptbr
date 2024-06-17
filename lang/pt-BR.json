@@ -18,10 +18,10 @@
          "expedience": "Experiência",
          "hp": "Pontos de Robustez",
          "growth": "Crescimento",
-         "blood": "Sangue",
+         "blood": "Linhagem",
          "kin": "Parentesco",
          "look": "Aparência",
-         "issue": "Questão"
+         "issue": "Problema"
       },
       "statDescription": {
          "expedienceDesc": "Gaste 2 PE antes de uma rolagem para ganhar Vantagem (você pode fazer isso mais de uma vez).",
