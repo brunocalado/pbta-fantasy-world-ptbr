@@ -25,7 +25,7 @@
       {
         "id": "fwrpg-for-pbta",
         "type": "module",
-        "manifest": "https://raw.githubusercontent.com/Rangertheman/fwrpg-for-pbta/0.4.0/module.json",
+        "manifest": "https://raw.githubusercontent.com/Rangertheman/fwrpg-for-pbta/0.4.1/module.json",
         "compatibility": {}
       }      
     ]
