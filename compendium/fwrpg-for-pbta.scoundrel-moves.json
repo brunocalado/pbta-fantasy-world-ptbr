@@ -14,7 +14,7 @@
 	"entries": {
 		"A Thousand Faces": {
 			"name": "Mil Faces",
-      "description": "<p>Quando você <strong>disfarça </strong>alguém...</p>\n<p>Explique como você obscurece suas características para torná-las [<strong><em>difíceis de reconhecer</em></strong>].</p>\n<ul>\n<li>Se você gastar <strong>Suprimentos </strong>e cerca de <strong>uma hora</strong> de preparação, eles podem passar como qualquer <strong>Sangue </strong>e <strong>Família</strong> com aproximadamente o mesmo tamanho e forma.</li>\n<li>Se você gastar <strong>3 PE</strong>, pode imitar os maneirismos e a voz de alguém que observou por um tempo, o suficiente para passar em uma inspeção superficial.</li>\n</ul>",
+      "description": "<p>Quando você <strong>disfarça </strong>alguém...</p>\n<p>Explique como você obscurece suas características para torná-las [<strong><em>difíceis de reconhecer</em></strong>].</p>\n<ul>\n<li>Se você gastar <strong>Suprimentos </strong>e cerca de <strong>uma hora</strong> de preparação, eles podem passar como qualquer <strong>Sangue </strong>e <strong>Família</strong> com aproximadamente o mesmo tamanho e forma.</li>\n<li>Se você gastar <strong>3 PE</strong>, pode imitar os maneirismos e a voz de alguém que observou por um tempo, o suficiente para passar em uma inspeção superficial.</li>\n</ul> </br><p> <p>Notas sobre Mil Faces</p> <p>“Alguém” inclui o próprio Escroque.</p> <p>O que constitui “algum” tempo fica a critério dos Jogadores e do Mundo, mas realizar Trabalho de Campo no alvo sempre será suficiente.</p> </p>",
       "failure": "",
       "partial": "",
       "success": "",
@@ -25,7 +25,7 @@
 		},
 		"Assassin Strike": {
 			"name": "Ataque do Assassino",
-      "description": "<p>Quando você ataca alguém <strong>desprevenido</strong> ou <strong>despreparado</strong>...</p>\n<p>Você pode escolher uma opção:</p>\n<ul>\n<li>Você inflige <strong>Dano Terrível</strong>.</li>\n<li>Você inflige <strong>Pouco Dano</strong>, mas <strong>você escolhe</strong> um dos efeitos de dano <strong>que </strong>eles sofrem.</li>\n</ul>\n<p>Então, role+Ousadia. </p>" ,
+      "description": "<p>Quando você ataca alguém <strong>desprevenido</strong> ou <strong>despreparado</strong>...</p>\n<p>Você pode escolher uma opção:</p>\n<ul>\n<li>Você inflige <strong>Dano Terrível</strong>.</li>\n<li>Você inflige <strong>Pouco Dano</strong>, mas <strong>você escolhe</strong> um dos efeitos de dano <strong>que </strong>eles sofrem.</li>\n</ul>\n<p>Então, role+Ousadia. </p> </br><p> <p>Notas sobre Ataque do Assassino</p> <p>Deve ser óbvio que se o alvo não estiver ciente do Escroque, ou despreparado para sua agressão, o movimento de Luta Livre não pode ser acionado e este acontece em seu lugar.</p> </p>" ,
       "failure": "<p><strong>1-6: </strong>Você faz de alguma forma + <em>Reação do Mundo</em>.</p>",
       "partial": "<p><strong>7-9:</strong> Você faz isso de forma rude, chamando atenção ou deixando vestígios óbvios.&nbsp;</p>",
       "success": "<p><strong>10+:</strong> Você faz isso suavemente, se possível sem testemunhas e sem vestígios óbvios.&nbsp;</p>",
@@ -47,7 +47,7 @@
 		},
 		"Dirty Fighter": {
 			"name": "Lutador Sujo",
-      "description": "<p>Quando você faz uma <strong>trapaça suja e desonrosa</strong> durante uma confrontação...</p>\n<p>Role+Ousadia: </p> ",
+      "description": "<p>Quando você faz uma <strong>trapaça suja e desonrosa</strong> durante uma confrontação...</p>\n<p>Role+Ousadia: </p> </br><p> <p>Notas sobre Lutador Sujo</p> <p>Qualquer efeito de dano escolhido deve fazer sentido ficcional. Às vezes, a situação pode se abrir para praticamente qualquer opção, se o Jogador for inteligente o suficiente para aproveitar sua posição ficcional. Outras vezes, as ações e circunstâncias descritas restringirão as escolhas disponíveis.</p> <p>Se o Escroque selecionar um efeito Temp que já estiver marcado, eles devem primeiro tentar ver se outro efeito também se encaixaria na ficção. Se isso não for possível, então o efeito de dano é elevado para Sério, conforme as regras normais, mas agora a vítima escolhe.</p> </p>",
       "failure": "<p><strong>1-6:</strong> <em>Reação do Mundo</em>.</p>",
       "partial": "<p><strong>7-9:</strong> Inflija um efeito <strong>Temporário</strong> de sua escolha, mas você parece [<strong>desprezível</strong>].&nbsp;</p>",
       "success": "<p><strong>10+: </strong>Inflija um efeito <em><strong>Temporário</strong></em> de sua escolha.&nbsp;</p>",
@@ -58,7 +58,7 @@
 		},
 		"Friends in Low Places": {
 			"name": "Amigos nos Lugares Baixos",
-      "description": "<p>Quando você diz que <strong>conhece alguém</strong> no submundo local...</p>\n<p><strong>Dispare <em>Recordar Conhecimento</em></strong> com uma <em><strong>Vantagem</strong></em>. Então escolha um para cada:</p>\n<ul>\n<li>Há uma dívida...\n<ul>\n<li>Você deve a eles (ganhe <strong>1 PE</strong>).</li>\n<li>Eles devem a você (ganhe uma <em><strong>Vantagem</strong></em> para <em><strong>Persuadir</strong></em>).</li>\n</ul>\n</li>\n<li>Da última vez que vocês se separaram...\n<ul>\n<li>Em bons termos, eles serão [<em><strong>confiáveis</strong></em>] + <em>Reação Aberta</em>.</li>\n<li>Em maus termos, eles serão [<em><strong>desconfiados</strong></em>] + <em>Mostre uma Oportunidade</em>.</li>\n</ul>\n</li>\n</ul>",
+      "description": "<p><strong>Requer: Trabalho de Campo</strong></p><p>Quando você diz que <strong>conhece alguém</strong> no submundo local...</p>\n<p><strong>Dispare <em>Recordar Conhecimento</em></strong> com uma <em><strong>Vantagem</strong></em>. Então escolha um para cada:</p>\n<ul>\n<li>Há uma dívida...\n<ul>\n<li>Você deve a eles (ganhe <strong>1 PE</strong>).</li>\n<li>Eles devem a você (ganhe uma <em><strong>Vantagem</strong></em> para <em><strong>Persuadir</strong></em>).</li>\n</ul>\n</li>\n<li>Da última vez que vocês se separaram...\n<ul>\n<li>Em bons termos, eles serão [<em><strong>confiáveis</strong></em>] + <em>Reação Aberta</em>.</li>\n<li>Em maus termos, eles serão [<em><strong>desconfiados</strong></em>] + <em>Mostre uma Oportunidade</em>.</li>\n</ul>\n</li>\n</ul>",
       "failure": "",
       "partial": "",
       "success": "",
@@ -80,14 +80,14 @@
 		},
 		"Legwork": {
 			"name": "Trabalho de Campo",
-      "description": "<p><strong>Quando você decide coletar informações sobre alguém ou algo...</strong></p>\n<p>Isso leva alguns <strong>dias</strong>, passando <strong>horas</strong> em reconhecimento, pesquisa e vigilância. Escolha uma:</p>\n<ul>\n<li>Você é <strong>cuidadoso</strong>, sua atividade passa despercebida, mas você recebe <em><strong>Desvantagem</strong></em>.</li>\n<li>Você é <strong>descuidado</strong>, sua atividade chama a atenção, mas você recebe <em><strong>Vantagem</strong></em>.</li>\n</ul>\n<p>Então, role+Vigilância.</p>\n<p>Você pode nomear e descrever um ou mais contatos. Cada um lhe dá +1 opção, mas você deve um favor a eles. O Mundo fará uma nota sobre isso.<br /><br /></p> ",
+      "description": "<p><strong>Quando você decide coletar informações sobre alguém ou algo...</strong></p>\n<p>Isso leva alguns <strong>dias</strong>, passando <strong>horas</strong> em reconhecimento, pesquisa e vigilância. Escolha uma:</p>\n<ul>\n<li>Você é <strong>cuidadoso</strong>, sua atividade passa despercebida, mas você recebe <em><strong>Desvantagem</strong></em>.</li>\n<li>Você é <strong>descuidado</strong>, sua atividade chama a atenção, mas você recebe <em><strong>Vantagem</strong></em>.</li>\n</ul>\n<p>Então, role+Vigilância.</p>\n<p>Você pode nomear e descrever um ou mais contatos. Cada um lhe dá +1 opção, mas você deve um favor a eles. O Mundo fará uma nota sobre isso.<br /><br /></p><p> <ul>     <li>Leva horas em vez de dias!</li>     <li>Quem mais está interessado?</li>     <li>Qual é a maneira rápida, porém perigosa, de acessar?</li>     <li>Qual é a maneira lenta, porém mais segura, de acessar?</li>     <li>O que está no meu caminho?</li>     <li>Que curiosidade útil eu encontro?</li>     <li>Quem vai perceber se eu mexer com isso?</li>     <li>Quem pode vir atrás de mim?</li> </ul> </p>",
       "failure": "<p><strong>1-6:</strong> 1 opção + <em>Reação do Mundo</em>.</p>",
       "partial": "<p><strong>7-9:</strong> 1 opção.<br><br></p>",
       "success": "<p><strong>10+</strong>: 2 opções.<br><br></p>",
       "failurelabel": "Revés",
       "partiallabel": "Benefício Menor",
       "successlabel": "Grande Benefício!",
-      "choices": ""
+      "choices": " <p> <ul>     <li>Leva horas em vez de dias!</li>     <li>Quem mais está interessado?</li>     <li>Qual é a maneira rápida, porém perigosa, de acessar?</li>     <li>Qual é a maneira lenta, porém mais segura, de acessar?</li>     <li>O que está no meu caminho?</li>     <li>Que curiosidade útil eu encontro?</li>     <li>Quem vai perceber se eu mexer com isso?</li>     <li>Quem pode vir atrás de mim?</li> </ul> </p>"
 		},
 		"Poisoner": {
 			"name": "Envenenador",
@@ -124,7 +124,7 @@
 		},
 		"Underworld Network": {
 			"name": "Rede do Submundo",
-      "description": "<p>Quando <strong>aproveitar sua rede</strong> de contatos para conseguir algo que você quer...</p> <p>Role+Conhecimento. </p> ",
+      "description": "<p><strong>Requer: Trabalho de Campo</strong></p><p>Quando <strong>aproveitar sua rede</strong> de contatos para conseguir algo que você quer...</p> <p>Role+Conhecimento. </p> ",
       "failure": "<p><strong>1-6:</strong> Você sabe quem tem isso + <em>Reação do Mundo</em>.</p>",
       "partial": "<p><strong>7-9:</strong> Você pode conseguir isso devendo um favor a alguém que o Mundo vai descrever. É alguém que você <strong>não conhece</strong> ou de quem <strong>desconfia</strong>.&nbsp;</p>",
       "success": "<p><strong>10+:</strong> Você pode conseguir isso devendo um favor a alguém que o Mundo vai descrever. É alguém que você <strong>conhece</strong>, <strong>confia</strong> e <strong>respeita</strong>.&nbsp;</p>",

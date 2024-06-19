@@ -14,7 +14,7 @@
 	"entries": {
 		"Arcane Heirloom": {
 			"name": "Relíquia Arcana",
-      "description": "<p>Quando você consulta sua arma para obter sua sabedoria...</p> <p>Explique qual é o seu dilema e de quem é a voz que lhe responde. Descreva como você a ouve/vê/sente, então role+Conhecimento:</p> ",
+      "description": "<p><strong>Requer: Esta é Minha Arma</strong></p><p>Quando você consulta sua arma para obter sua sabedoria...</p> <p>Explique qual é o seu dilema e de quem é a voz que lhe responde. Descreva como você a ouve/vê/sente, então role+Conhecimento:</p> ",
       "failure": "<p><strong>1-6:</strong> O dilema é falso, o problema é você! Independentemente de você achar que é verdade ou não, a voz o acusa de algum tipo de fraqueza ou falha, escolha do Mundo. Transforme isso em uma <em>Tag</em> em sua ficha.</p>",
       "partial": "<p><strong>7-9: </strong>O Mundo descreverá uma visão, impressão ou presságio útil.</p>",
       "success": "<p><strong>10+: </strong>O Mundo descreverá uma visão, impressão ou presságio útil, esclarecendo o que significa para o seu dilema. Ganhe uma <em>Vantagem</em> para agir com base no conselho.</p> ",
@@ -36,7 +36,7 @@
 		},
 		"Brutal": {
 			"name": "Brutal",
-      "description": "<p>Quando você realiza um ato de violência <strong>desnecessária</strong> ou <strong>excessiva</strong>...</p> <p>Qualquer testemunha pensará que [<em><strong>*SeuNome* é um brutamontes</strong></em>]. Mesmo que não expressem isso, você sempre sentirá seu julgamento. <strong>Uma vez por sessão</strong>, escolha uma opção:</p> <ul> <li>Você tinha motivos. Se oferecer uma justificação ao Mundo, ganhe <strong>1 PE</strong>.</li> <li>Eles estão certos. Se contar ao Mundo por que acha que fez isso, marque <strong>1 <em>Crescimento</em></strong>.</li> </ul>",
+      "description": "<p>Quando você realiza um ato de violência <strong>desnecessária</strong> ou <strong>excessiva</strong>...</p> <p>Qualquer testemunha pensará que [<em><strong>*SeuNome* é um brutamontes</strong></em>]. Mesmo que não expressem isso, você sempre sentirá seu julgamento. <strong>Uma vez por sessão</strong>, escolha uma opção:</p> <ul> <li>Você tinha motivos. Se oferecer uma justificação ao Mundo, ganhe <strong>1 PE</strong>.</li> <li>Eles estão certos. Se contar ao Mundo por que acha que fez isso, marque <strong>1 <em>Crescimento</em></strong>.</li> </ul> </br><p> Notas sobre Brutal <ul> <li>A violência pode ser física ou social.</li> <li>O efeito se aplica tanto a NPCs quanto a PCs.</li> <li>O Tag pode ser facilmente utilizado em favor do Veterano, mas também afetará de forma imprevisível a maioria das interações com aqueles que testemunharam seu comportamento brutal.</li> </ul> </p>",
       "failure": "",
       "partial": "",
       "success": "",
@@ -58,7 +58,7 @@
 		},
 		"Fighting Style": {
 			"name": "Estilo de Luta",
-      "description": "<p>Você é treinado em um <strong>estilo de luta único</strong>...</p> <p>Explique como ele se parece e dê um nome a ele, então marque uma opção. Quando você <em><strong>Brigar</strong></em>, se descrever o ataque no seu estilo...</p> <ul> <li>Rolar+Vigilância. Você conta como um [<em><strong>pequeno grupo</strong></em>] mas causa [<em><strong>Pouco dano</strong></em>] por padrão.</li> <li>Rolar+Intensidade. Você é imune aos efeitos <strong>Temp</strong> mas causa <em><strong>[Pouco dano]</strong></em> por padrão.</li> <li>Rolar+Conhecimento. Você pode escolher uma opção extra da lista de <em><strong>Brigar</strong></em> para tomar/manter/forçar.</li> <li>Rolar+Nada. Você conta como um [<em><strong>pequeno grupo</strong></em>] e causa [<em><strong>Dano Terrível</strong></em>] por padrão, mas não pode sofrer [<em><strong>Pouco dano</strong></em>].</li> </ul>",
+      "description": "<p>Você é treinado em um <strong>estilo de luta único</strong>...</p> <p>Explique como ele se parece e dê um nome a ele, então marque uma opção. Quando você <em><strong>Brigar</strong></em>, se descrever o ataque no seu estilo...</p> <ul> <li>Rolar+Vigilância. Você conta como um [<em><strong>pequeno grupo</strong></em>] mas causa [<em><strong>Pouco dano</strong></em>] por padrão.</li> <li>Rolar+Intensidade. Você é imune aos efeitos <strong>Temp</strong> mas causa <em><strong>[Pouco dano]</strong></em> por padrão.</li> <li>Rolar+Conhecimento. Você pode escolher uma opção extra da lista de <em><strong>Brigar</strong></em> para tomar/manter/forçar.</li> <li>Rolar+Nada. Você conta como um [<em><strong>pequeno grupo</strong></em>] e causa [<em><strong>Dano Terrível</strong></em>] por padrão, mas não pode sofrer [<em><strong>Pouco dano</strong></em>].</li> </ul> </br><p> Notas sobre Estilo de Luta <ul> <li>Você pode escolher este Movimento várias vezes para marcar estilos adicionais.</li> <li>Através de uma descrição apropriada, você sempre pode optar por realizar uma Luta \"normal\" e rolar+Audácia.</li> <li>Efeitos que modificam o dano se acumulam, desde Nenhum dano até Dano letal.</li> </ul> </p>",
       "failure": "",
       "partial": "",
       "success": "",
@@ -80,7 +80,7 @@
 		},
 		"Old Scars": {
 			"name": "Cicatrizes Antigas",
-      "description": "<p>Quando você <strong>mostra </strong>para alguém uma de suas cicatrizes...</p> <p>Se você contar a <strong>verdade </strong>sobre <strong>como </strong>a obteve e <strong>por que</strong> sente orgulho ou vergonha dela, eles compartilharão uma experiência semelhante com você. Isso conta como uma cena de <em><strong>Vínculo</strong></em>.</p>",
+      "description": "<p>Quando você <strong>mostra </strong>para alguém uma de suas cicatrizes...</p> <p>Se você contar a <strong>verdade </strong>sobre <strong>como </strong>a obteve e <strong>por que</strong> sente orgulho ou vergonha dela, eles compartilharão uma experiência semelhante com você. Isso conta como uma cena de <em><strong>Vínculo</strong></em>.</p> </br><p> Notas sobre Cicatrizes Antigas <ul> <li>As cicatrizes podem ser físicas, emocionais ou de outros tipos.</li> <li>Algumas cicatrizes não podem ser vistas, mas têm efeitos visíveis. Mostrar esses efeitos também acionará a jogada.</li> </ul> </p>",
       "failure": "",
       "partial": "",
       "success": "",

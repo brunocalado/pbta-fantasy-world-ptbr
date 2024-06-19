@@ -14,7 +14,7 @@
 	"entries": {
 		"1001 Tales": {
 			"name": "1001 Contos",
-      "description": "<p>Quando você <strong>visita um novo porto</strong>...</p>\n<p>Se você contar a alguém sobre a última vez que você e sua tripulação estiveram aqui, ganhe <strong>1 PE</strong> e role+Intensidade.</p>",
+      "description": "<p>Quando você <strong>visita um novo porto</strong>...</p>\n<p>Se você contar a alguém sobre a última vez que você e sua tripulação estiveram aqui, ganhe <strong>1 PE</strong> e role+Intensidade.</p><p><p><strong>Notas sobre 1001 Histórias</strong></p> <ul>   <li>Para um Capitão local, um “novo porto” pode ser representado por qualquer nova área que eles visitem com pouca frequência:</li>   <ul>     <li>Pode significar um novo bairro ou uma nova pousada ou taverna.</li>     <li>Pode significar uma nova vila ou cidade.</li>     <li>Ajuste a definição para cima ou para baixo conforme o que for significativo para sua própria campanha, seja ela ambientada em uma única grande cidade, uma região inteira ou o mundo em geral.</li>   </ul>   <li>Você pode contar a história para qualquer pessoa, incluindo seus companheiros de tripulação e os outros PCs, ou algum estranho que você acabou de conhecer.</li> </ul> </p>",
       "failure": "<p><strong>1-6:</strong> <em>Reação do Mundo</em>.</p>",
       "partial": "<p><strong>7-9: </strong>Os locais têm [<em><strong>dúvidas e sentimentos mistos</strong></em>] em relação a você.</p>",
       "success": "<p><strong>10+: </strong>Os locais têm uma [<em><strong>boa disposição</strong></em>] para com você.</p>",
@@ -36,7 +36,7 @@
 		},
 		"Jenkins!": {
 			"name": "Jenkins!",
-      "description": " <p>Quando você chama por um <strong>especialista</strong>...</p>\n<p>Gaste <strong>1 Suprimento</strong>. Se for alguém que você já chamou antes, eles virão até você. Caso contrário, <strong>nomeie</strong> eles e explique qual habilidade, conhecimento ou experiência específica eles possuem. O Mundo os adicionará ao <strong>Elenco</strong> da sua tripulação, com um <em><strong>Rótulo</strong></em> para sua especialidade e um para um limite ou problema pessoal.</p> ",
+      "description": "<p><strong>Requer: Won Cru</strong></p><p>Quando você chama por um <strong>especialista</strong>...</p>\n<p>Gaste <strong>1 Suprimento</strong>. Se for alguém que você já chamou antes, eles virão até você. Caso contrário, <strong>nomeie</strong> eles e explique qual habilidade, conhecimento ou experiência específica eles possuem. O Mundo os adicionará ao <strong>Elenco</strong> da sua tripulação, com um <em><strong>Rótulo</strong></em> para sua especialidade e um para um limite ou problema pessoal.</p><p><p><strong>Notas sobre Jenkins!</strong></p> <ul>   <li>Cada companheiro pode ser designado para uma especialidade dessa maneira apenas uma vez.</li>   <li>Se um companheiro específico estiver incapaz ou relutante em responder ao seu chamado, você não pode acessá-lo ou à sua especialidade, mas pode nomear um novo companheiro para ter a mesma ou uma especialidade semelhante.</li>   <li>Refira-se ao tamanho aproximado de um Grupo para um limite vago sobre o número máximo de companheiros que o Capitão pode nomear. Jogue de maneira flexível, como uma diretriz para evitar abusos.</li> </ul></p> ",
       "failure": "",
       "partial": "",
       "success": "",
@@ -47,7 +47,7 @@
 		},
 		"Maps and Charts": {
 			"name": "Mapas e Cartas",
-      "description": "<p>Você acumulou um tesouro de documentos e informações de navegação...</p>\n<p>Diga qual destino você precisa de um mapa, e o Mundo determinará se é <strong>comum</strong> ou <strong>raro</strong>. Então role+Conhecimento.</p>, ",
+      "description": "<p>Você acumulou um tesouro de documentos e informações de navegação...</p>\n<p>Diga qual destino você precisa de um mapa, e o Mundo determinará se é <strong>comum</strong> ou <strong>raro</strong>. Então role+Conhecimento.</p><p><p><strong>Notas sobre Mapas e Cartas</strong></p> <ul>   <li>Mapas para a maioria dos destinos de viagem são bastante comuns, mas poucas pessoas os possuem. Isso por si só torna essa ação extremamente valiosa.</li>   <li>O caminho para uma terra remota pode ser raro. O caminho para um local perdido ou um lugar escondido é definitivamente raro. Qualquer “mapa do tesouro” ou esboço de uma área privada ou defendida é certamente raro.</li>   <li>A veracidade, precisão e completude de um mapa são incertas. Mapas comuns geralmente são mais seguros que os raros, mas de qualquer forma, Reações do Mundo podem revelar todos os tipos de surpresas. Estudo, pesquisa e comparações podem estabelecer a confiabilidade ou revelar erros e omissões.</li> </ul>  </p>",
       "failure": "<p><strong>1-6:</strong> Se for comum, você sabe onde conseguir. Se for raro, você tem rumores que somam uma pista inicial para procurá-lo.</p>",
       "partial": "<p><br><strong>7-9:</strong> Se for comum, <strong>você o tem</strong>. Se for raro, <strong>você sabe onde conseguir</strong>. Mas o raro será <strong>problemático</strong> por causa de um passado: dívida, rancor, traição, etc. Você nomeia.</p>",
       "success": "<p><strong>10+: </strong>Se for comum, <strong>você o tem</strong>. Se for raro, <strong>você sabe onde conseguir</strong>.</p>",
@@ -80,7 +80,7 @@
 		},
 		"One of Us": {
 			"name": "Um de Nós",
-      "description": "<p>Quando você faz um <strong>Descanso Longo</strong>...</p>\n<p>A tripulação conta como <strong>um</strong> PC. Eles podem <strong>interpretar um total de uma cena de <em>Utilidade</em></strong> sem custo, e os PCs normais podem então participar de cenas de <em><strong>Vínculo</strong></em> com os companheiros de tripulação.</p> ",
+      "description": "<p><strong>Requer: Won Cru</strong></p><p>Quando você faz um <strong>Descanso Longo</strong>...</p>\n<p>A tripulação conta como <strong>um</strong> PC. Eles podem <strong>interpretar um total de uma cena de <em>Utilidade</em></strong> sem custo, e os PCs normais podem então participar de cenas de <em><strong>Vínculo</strong></em> com os companheiros de tripulação.</p> <p><p><strong>Notas sobre Um de Nós</strong></p> <ul>   <li>O personagem-jogador da tripulação pode representar todo o grupo, uma parte dele, ou indivíduos específicos, conforme exigido pela cena.</li>   <li>O personagem-jogador da tripulação não pode iniciar uma cena de Vínculo.</li> </ul> </p>",
       "failure": "",
       "partial": "",
       "success": "",
@@ -91,7 +91,7 @@
 		},
 		"Personal Legend": {
 			"name": "Lenda Pessoal",
-      "description": "<p>Você, e por extensão, sua <strong>Tripulação</strong> e seu <strong>Nexus</strong>, têm uma reputação lendária...</p>\n<p>A menção do seu <strong>nome oficial de capitão</strong>, ou a visão da sua <strong>Tripulação</strong> ou do seu <strong>Nexus</strong>, provoca naturalmente uma forte emoção no coração das pessoas. Sua lenda, expressa em <strong>uma ou algumas palavras</strong>, funciona como uma <em><strong>Etiqueta</strong></em> quando apropriado.</p> ",
+      "description": "<p><strong>Requer: Won Cru ou Nexus</strong></p><p>Você, e por extensão, sua <strong>Tripulação</strong> e seu <strong>Nexus</strong>, têm uma reputação lendária...</p>\n<p>A menção do seu <strong>nome oficial de capitão</strong>, ou a visão da sua <strong>Tripulação</strong> ou do seu <strong>Nexus</strong>, provoca naturalmente uma forte emoção no coração das pessoas. Sua lenda, expressa em <strong>uma ou algumas palavras</strong>, funciona como uma <em><strong>Etiqueta</strong></em> quando apropriado.</p><p><p><strong>Notas sobre Lenda Pessoal</strong></p> <ul>   <li>Qual é a sua lenda? Ela inspira <em>[temor]</em> ou <em>[esperança]</em>? Você é considerado <em>[heróico]</em> ou <em>[perigoso]</em>? As pessoas pensam em você como um <em>[monstro]</em>, um <em>[romântico]</em>, um <em>[mercador astuto]</em> ou um <em>[simplório inofensivo]</em>? (Ser subestimado pode oferecer muitas vantagens...)</li> </ul> </p> ",
       "failure": "",
       "partial": "",
       "success": "",
@@ -101,8 +101,8 @@
       "choices": ""
 		},
 		"Remember Them": {
-			"name": "Lembrando-os",
-      "description": "<p>Quando você e sua tripulação realizam uma cerimônia para um companheiro caído...</p>\n<p><strong>Nomeie</strong> o caído, depois descreva a cerimônia: <strong>onde</strong> é realizada, como o <strong>local é preparado</strong>, como o <strong>corpo é disposto</strong>, o que se espera que os participantes <strong>façam</strong>.</p>\n<p>O Mundo enquadra um momento durante a cerimônia em que um companheiro <strong>nomeado</strong> fala com o Capitão. O companheiro narrará uma breve anedota sobre si mesmo e o falecido.</p>\n<p>Cada <strong>Jogador</strong> pode fazer o mesmo, ganhando <strong>1 PE</strong>. Por fim, o Capitão também pode fazer isso, mas falando para toda a tripulação. Se o fizer, ganha <strong>1 marca de Crescimento</strong>.</p> ",
+			"name": "Recordar os Caídos",
+      "description": "<p>Quando você e sua tripulação realizam uma cerimônia para um companheiro caído...</p>\n<p><strong>Nomeie</strong> o caído, depois descreva a cerimônia: <strong>onde</strong> é realizada, como o <strong>local é preparado</strong>, como o <strong>corpo é disposto</strong>, o que se espera que os participantes <strong>façam</strong>.</p>\n<p>O Mundo enquadra um momento durante a cerimônia em que um companheiro <strong>nomeado</strong> fala com o Capitão. O companheiro narrará uma breve anedota sobre si mesmo e o falecido.</p>\n<p>Cada <strong>Jogador</strong> pode fazer o mesmo, ganhando <strong>1 PE</strong>. Por fim, o Capitão também pode fazer isso, mas falando para toda a tripulação. Se o fizer, ganha <strong>1 marca de Crescimento</strong>.</p><p><p><strong>Notas sobre Recordar os Caídos</strong></p> <ul>   <li>Quando um Jogador apresenta um momento, ele deve interpretar o papel de um companheiro. Se o seu PC for considerado um companheiro, ele pode escolher qual personagem interpretar.</li>   <li>Uma maneira simples de criar uma anedota é começar com uma frase como:     <ul>       <li>Eu me lembro daquela vez quando eles...</li>       <li>Teve aquela vez quando eles...</li>     </ul>   </li>   <li>Se mais de um companheiro caiu, uma única cerimônia é realizada para todos eles.</li>   <li>Não passe por uma rodada inteira de anedotas para cada caído, a menos que todos na mesa votem fortemente a favor disso. Em vez disso, simplesmente faça com que cada orador escolha um caído para falar sobre.</li>   <li>Em seu discurso final, o Capitão pode mencionar mais de um caído, mas ainda assim recebe apenas uma marca de Crescimento.</li> </ul> </p>",
       "failure": "",
       "partial": "",
       "success": "",

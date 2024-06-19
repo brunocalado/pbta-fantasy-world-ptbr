@@ -26,7 +26,7 @@
 		},
 		"Analytical": {
 			"name": "Analítico",
-      "description": "<p><strong>Quando você Observar o Ambiente... </strong></p> <p>Você pode descrever <strong>considerações com aparência científica</strong> para obter <strong>1 pergunta extra</strong>, ao custo de <strong>1 XP</strong> por cada consideração.</p> ",
+      "description": "<p><strong>Quando você Observar o Ambiente... </strong></p> <p>Você pode descrever <strong>considerações com aparência científica</strong> para obter <strong>1 pergunta extra</strong>, ao custo de <strong>1 XP</strong> por cada consideração.</p> </br><p> <p>Notas sobre Analítico</p> <p>Exemplos de considerações podem incluir:</p> <ul>     <li>Avaliar a distância entre...</li>     <li>Calcular a aceleração de...</li>     <li>Considerar a massa e a trajetória de...</li>     <li>Visualizar a interação entre...</li>     <li>Etc.</li> </ul> </p>",
       "failure": "",
       "partial": "",
       "success": "",
@@ -37,7 +37,7 @@
 		},
 		"Arcanotechnics": {
 			"name": "Arcanotécnica",
-      "description": "<p>Você descobriu como misturar <strong>ciência e magia</strong>...</p> <p>Você tem um <strong>entendimento rudimentar de Alquimia</strong> (química mágica), <strong>Talismongeria </strong>(engenharia mágica), e <strong>Taumaturgia</strong> (biologia mágica). Agora, quando você <strong>trabalha em algo</strong>, você pode alcançar resultados que seriam difíceis ou impossíveis apenas pela ciência.</p> <p><strong>Ative <em>@UUID[Compendium.fwrpg-for-pbta.maker-moves.Item.1Ej6GWMTvWTrEEKi]{Acadêmico}</em></strong> e descreva quais técnicas mágicas e materiais você pretende incluir em seu trabalho para aprimorá-lo:</p> <ul> <li>O trabalho tem um custo em <strong>XP</strong> igual ao número inicial não modificado de condições.</li> <li>O Mundo pode escolher condições tanto das ações do <em><strong>Inventor </strong></em>quanto do Ocultista <em><strong>Ritual</strong></em>.</li> </ul> ",
+      "description": "<p><strong>Requer: Acadêmico</strong></p><p>Você descobriu como misturar <strong>ciência e magia</strong>...</p> <p>Você tem um <strong>entendimento rudimentar de Alquimia</strong> (química mágica), <strong>Talismongeria </strong>(engenharia mágica), e <strong>Taumaturgia</strong> (biologia mágica). Agora, quando você <strong>trabalha em algo</strong>, você pode alcançar resultados que seriam difíceis ou impossíveis apenas pela ciência.</p> <p><strong>Ative <em>@UUID[Compendium.fwrpg-for-pbta.maker-moves.Item.1Ej6GWMTvWTrEEKi]{Acadêmico}</em></strong> e descreva quais técnicas mágicas e materiais você pretende incluir em seu trabalho para aprimorá-lo:</p> <ul> <li>O trabalho tem um custo em <strong>XP</strong> igual ao número inicial não modificado de condições.</li> <li>O Mundo pode escolher condições tanto das ações do <em><strong>Inventor </strong></em>quanto do Ocultista <em><strong>Ritual</strong></em>.</li> </ul> </br><p> <p>Notas sobre Arcanotécnica</p> <ul>     <li>Técnicas mágicas exemplicativas: inscrever runas, trabalhar em um círculo mágico, gravar símbolos e encantamentos em itens, entoar fórmulas enquanto trabalha, etc.</li>     <li>Materiais mágicos exemplicativos: metal oricalco, madeira de raiz-sangue, poeiras e pós alquímicos produzidos, substâncias, parafernália ritualística, etc.</li> </ul> </p>",
       "failure": "",
       "partial": "",
       "success": "",
@@ -48,7 +48,7 @@
 		},
 		"Eidetic Memory": {
 			"name": "Memória Eidética",
-      "description": "<p>Quando <strong>lembrar </strong>dos detalhes de algo...</p> <p>Você pode ativar <em><strong>Ler Alguém</strong></em> ou <em><strong>Observar o Ambiente</strong></em>, embora você não possa interagir com nada.</p> ",
+      "description": "<p>Quando <strong>lembrar </strong>dos detalhes de algo...</p> <p>Você pode ativar <em><strong>Ler Alguém</strong></em> ou <em><strong>Observar o Ambiente</strong></em>, embora você não possa interagir com nada.</p> </br><p> <p>Notas sobre Memória Eidética</p> <ul>     <li>As respostas estão limitadas ao que era no passado quando você viveu esses momentos e criou a memória que está reavaliando agora.</li>     <li>Você não pode interagir com nada, é apenas uma memória. Mas pode obter novas informações e insights relembrando detalhes exatos que talvez não tenha notado na época.</li> </ul> </p> ",
       "failure": "",
       "partial": "",
       "success": "",
@@ -81,7 +81,7 @@
 		},
 		"High Magister": {
 			"name": "Alto Magíster",
-      "description": "<p>Você possui domínio de um campo científico...</p> <p>Escolha sua especialização:</p> <ul> <li><strong>Química</strong>: a ciência das substâncias e da matéria elementar.</li> <li><strong>Engenharia</strong>: a ciência das coisas e dos materiais inorgânicos.</li> <li><strong>Biologia</strong>: a ciência dos seres vivos e da matéria biológica.</li> </ul> <p>Quando você <strong>trabalha em algo</strong> que se enquadra na sua especialização, <strong>ative </strong><em><strong>Academista </strong></em>e escolha um:</p> <ul> <li>Sua <strong>Construção </strong>tem um defeito a menos.</li> <li>Sua <strong>Pesquisa </strong>é detalhada.</li> <li>Ignore uma condição.</li> </ul> ",
+      "description": "<p><strong>Requer: Acadêmico</strong></p><p>Você possui domínio de um campo científico...</p> <p>Escolha sua especialização:</p> <ul> <li><strong>Química</strong>: a ciência das substâncias e da matéria elementar.</li> <li><strong>Engenharia</strong>: a ciência das coisas e dos materiais inorgânicos.</li> <li><strong>Biologia</strong>: a ciência dos seres vivos e da matéria biológica.</li> </ul> <p>Quando você <strong>trabalha em algo</strong> que se enquadra na sua especialização, <strong>ative </strong><em><strong>Academista </strong></em>e escolha um:</p> <ul> <li>Sua <strong>Construção </strong>tem um defeito a menos.</li> <li>Sua <strong>Pesquisa </strong>é detalhada.</li> <li>Ignore uma condição.</li> </ul> ",
       "failure": "",
       "partial": "",
       "success": "",
@@ -92,7 +92,7 @@
 		},
 		"I'm Too Old For This": {
 			"name": "Sou Velho Demais Para Isso",
-      "description": "<p>Quando você sofreria <strong>Dano</strong>...</p> <p>Você pode escolher reduzi-lo obtendo <em><strong>Tags </strong></em>em vez de gastar <strong>HPs</strong>. As <em><strong>Tags </strong></em>são, em ordem: [<em><strong>esquivo</strong></em>], [<em><strong>indigno</strong></em>], [<em><strong>covarde</strong></em>].</p> ",
+      "description": "<p>Quando você sofreria <strong>Dano</strong>...</p> <p>Você pode escolher reduzi-lo obtendo <em><strong>Tags </strong></em>em vez de gastar <strong>HPs</strong>. As <em><strong>Tags </strong></em>são, em ordem: [<em><strong>esquivo</strong></em>], [<em><strong>indigno</strong></em>], [<em><strong>covarde</strong></em>].</p> </br><p> <p>Notas sobre Estou velho demais para isso</p> <ul>     <li>Cada Tag só pode ser usado uma vez. Ele pode ser usado novamente após ser removido de alguma forma através do jogo ativo.</li>     <li>Esses Tags são adquiridos em uma ordem específica, mas podem ser removidos na ordem que fizer sentido.</li> </ul> </p> ",
       "failure": "",
       "partial": "",
       "success": "",
@@ -103,7 +103,7 @@
 		},
 		"Junk Whisperer": {
 			"name": "Sussurrador de Tralhas",
-      "description": "<p>Quando <strong>trabalhando em</strong> uma ferramenta ou dispositivo...</p> <p>Você pode fazer isso mais rápido e mais barato usando <strong>materiais de sucata</strong> e soluções <strong>precárias</strong>. <strong>Ative <em>Acadêmico</em></strong> e, após a rolagem, descreva como você economiza usando materiais de reparo, componentes subótimos e práticas precárias.</p> <p>Sua invenção improvisada é [<em><strong>feia</strong></em>]. Você pode aplicar Tags adicionais, cada uma permitindo que você ignore uma condição de fabricação: <em><strong>[uso único</strong></em>], [<em><strong>pode explodir</strong></em>], [<em><strong>vazamento perigoso</strong></em>], [<em><strong>impreciso</strong></em>], [<em><strong>desajeitado</strong></em>], [<em><strong>consome recursos para usar</strong></em>] (geralmente equivalente a <strong>1 <em>Suprimento</em></strong>).</p> ",
+      "description": "<p><strong>Requer: Acadêmico</strong></p><p>Quando <strong>trabalhando em</strong> uma ferramenta ou dispositivo...</p> <p>Você pode fazer isso mais rápido e mais barato usando <strong>materiais de sucata</strong> e soluções <strong>precárias</strong>. <strong>Ative <em>Acadêmico</em></strong> e, após a rolagem, descreva como você economiza usando materiais de reparo, componentes subótimos e práticas precárias.</p> <p>Sua invenção improvisada é [<em><strong>feia</strong></em>]. Você pode aplicar Tags adicionais, cada uma permitindo que você ignore uma condição de fabricação: <em><strong>[uso único</strong></em>], [<em><strong>pode explodir</strong></em>], [<em><strong>vazamento perigoso</strong></em>], [<em><strong>impreciso</strong></em>], [<em><strong>desajeitado</strong></em>], [<em><strong>consome recursos para usar</strong></em>] (geralmente equivalente a <strong>1 <em>Suprimento</em></strong>).</p> </br><p> <p>Notas sobre o Sussurrador de Tralhas</p> <ul>     <li>Você não pode aplicar Tags que duplicam características que o item original já teria. Por exemplo, um dispositivo explosivo é inherentemente “de uso único”, então você não pode atribuir a Tag [de uso único] a ele.</li> </ul> </p> ",
       "failure": "",
       "partial": "",
       "success": "",
@@ -114,7 +114,7 @@
 		},
 		"Mentat": {
 			"name": "Mentat",
-      "description": "<p>Quando você tenta <strong>prever</strong> os desenvolvimentos futuros de uma <strong>situação</strong>...</p> <p>Explique quais elementos você está considerando, tanto de suas experiências passadas e Conhecimento quanto de observações atuais, e então role+Conhecimento.</p> ",
+      "description": "<p>Quando você tenta <strong>prever</strong> os desenvolvimentos futuros de uma <strong>situação</strong>...</p> <p>Explique quais elementos você está considerando, tanto de suas experiências passadas e Conhecimento quanto de observações atuais, e então role+Conhecimento.</p> </br><p> <p>Notas sobre o Mentat</p> <ul>     <li>O Relógio de Areia é revelado uma vez, embora os Jogadores possam fazer anotações ou até mesmo copiá-lo. Depois disso, ele voltará a ser uma nota privada dentro da preparação do Mundo.</li>     <li>O Criador pode avaliar uma situação repetidamente.</li>     <li>Se não existir um Relógio de Areia relevante, o Mundo criará um na hora. Ao fazer isso, devem tomar seu tempo e considerar calmamente todas as suas anotações no Mapa do Agente.</li>     <li>Os Jogadores devem saber que um Relógio de Areia não garante como as coisas acontecerão, já que o Mundo constantemente atualiza, modifica e até descarta Relógios de Areia em suas anotações. É uma visão do que é verdadeiro em determinado momento, mas eventos posteriores podem mudar as coisas.</li> </ul> </p>",
       "failure": "<p><strong>1-6:</strong> <em>Reação do Mundo</em>.</p>",
       "partial": "<p><strong>7-9:</strong> O Mundo revela uma ocorrência futura de uma <strong>Ampulheta</strong> relevante.</p>",
       "success": "<p><strong>10+:</strong> O Mundo revela uma <strong>Ampulheta</strong> relevante. </p>",
@@ -125,7 +125,7 @@
 		},
 		"Optimization": {
 			"name": "Otimização",
-      "description": "<p>Quando você fornece <strong>observações pseudo-científicas</strong> para “melhorar” as ações de alguém...</p> <p><em><strong>Intervir </strong></em>e, antes de eles rolarem, se você gastar <strong>1 <em>Suprimento</em></strong> em materiais ou ferramentas para melhor apoiar suas observações, em vez de uma <em><strong>Vantagem </strong></em>você melhora o resultado deles em um nível. Se isso não for possível, ambos ganham <strong>2 XP</strong>.</p> ",
+      "description": "<p>Quando você fornece <strong>observações pseudo-científicas</strong> para “melhorar” as ações de alguém...</p> <p><em><strong>Intervir </strong></em>e, antes de eles rolarem, se você gastar <strong>1 <em>Suprimento</em></strong> em materiais ou ferramentas para melhor apoiar suas observações, em vez de uma <em><strong>Vantagem </strong></em>você melhora o resultado deles em um nível. Se isso não for possível, ambos ganham <strong>2 XP</strong>.</p> </br><p> <p>Notas sobre Otimização</p> <ul>     <li>Melhorar um resultado de dado em um nível significa que um resultado de 1-6 se torna 7-9, um resultado de 7-9 se torna 10+, e um resultado de 10+ não pode ser melhorado, então ambos ganham 2 XP.</li> </ul> </p>",
       "failure": "",
       "partial": "",
       "success": "",
