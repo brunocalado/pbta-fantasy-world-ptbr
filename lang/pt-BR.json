@@ -17,7 +17,7 @@
          "doubt": "Dúvida",
          "expedience": "Experiência",
          "hp": "Pontos de Robustez",
-         "growth": "Crescimento",
+         "growth": "Evolução",
          "blood": "Linhagem",
          "kin": "Parentesco",
          "look": "Aparência",
@@ -25,14 +25,14 @@
       },
       "statDescription": {
          "expedienceDesc": "Gaste 2 PE antes de uma rolagem para ganhar Vantagem (você pode fazer isso mais de uma vez).",
-         "growthDesc": "Durante o Fim da Sessão, gaste 5 ou 10 PE para marcar 1 ou 2 Crescimentos, respectivamente.",
+         "growthDesc": "Durante o Fim da Sessão, gaste 5 ou 10 PE para marcar 1 ou 2 Evoluções, respectivamente.",
          "hpDesc": "Gaste 1 PR para reduzir o dano em um nível: \n Mortal > Grave > Temporário > Sem dano"
       },
       "growthOption": {
-         "headerLabel": "Opções de Crescimento",
+         "headerLabel": "Opções de Evolução",
          "growth0": "Aumente um atributo em +1; máx. +3",
-         "growth1": "Selecione um movimento de Crescimento da sua lista de Classe",
-         "growth2": "Selecione um movimento de Crescimento da sua própria lista ou de uma Classe diferente",
+         "growth1": "Selecione um movimento da sua lista de Classe",
+         "growth2": "Selecione um movimento da sua própria lista ou de uma Classe diferente",
          "growth3": "Aumente seus PRs atuais e máximos em 1"
       },
       "harmLabel": {
