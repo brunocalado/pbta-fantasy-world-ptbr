@@ -1,3 +1,6 @@
+# 1.0.6
+- imagem de personagem
+
 # 1.0.5
 - arrumei a imagem de fim de sessão
 

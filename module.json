@@ -2,7 +2,7 @@
   "id": "pbta-fantasy-world-ptbr",
   "title": "Fantasy World - Tradução para Português (Brasil)",
   "description": "<p>Adiciona o idioma Português (Brasil) para o sistema de jogo Fantasy World.</p>",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -63,5 +63,12 @@
         "ASSISTANT": "OWNER"
       }
     }
-  ]  
+  ],
+
+	"media": [{
+		"type": "setup",
+		"url": "modules/pbta-fantasy-world-ptbr/img/fw_logo.webp",
+		"thumbnail": "modules/pbta-fantasy-world-ptbr/img/fw_logo.webp"
+	}]
+  
 }
