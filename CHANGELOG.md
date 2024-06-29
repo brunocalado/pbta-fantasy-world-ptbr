@@ -1,3 +1,6 @@
+# 1.0.7
+- correções para o druida
+
 # 1.0.6
 - imagem de personagem
 
