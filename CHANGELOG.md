@@ -1,3 +1,7 @@
+# 1.0.8
+- melhoria da ficha
+- movimentos básicos melhorados
+
 # 1.0.7
 - correções para o druida
 

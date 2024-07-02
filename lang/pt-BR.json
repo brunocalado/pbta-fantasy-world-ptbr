@@ -58,8 +58,8 @@
          "infoMoves":"Informação",
          "specialMoves":"Especial",
          "violenceMoves":"Violência",
-         "startingMoves": "Ações Iniciais",
-         "growthMoves": "Ações de Crescimento",
+         "startingMoves": "Iniciais",
+         "growthMoves": "Evolução",
          "worldAction": "Ações do Mundo"
       },
       "equipmentTypeLabel": {
