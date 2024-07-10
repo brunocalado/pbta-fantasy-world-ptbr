@@ -1,3 +1,6 @@
+# 1.0.9
+- personagem/jornada/fim de sessao arrumado
+
 # 1.0.8
 - melhoria da ficha
 - movimentos básicos melhorados
