@@ -24,8 +24,8 @@
          "issue": "Problema"
       },
       "statDescription": {
-         "expedienceDesc": "Gaste 2 PE antes de uma rolagem para ganhar Vantagem (você pode fazer isso mais de uma vez).",
-         "growthDesc": "Durante o Fim da Sessão, gaste 5 ou 10 PE para marcar 1 ou 2 Evoluções, respectivamente.",
+         "expedienceDesc": "Gaste 2 XP antes de uma rolagem para ganhar Vantagem (você pode fazer isso mais de uma vez).",
+         "growthDesc": "Durante o Fim da Sessão, gaste 5 Pontos de Experiência para marcar 1 Evolução.",
          "hpDesc": "Gaste 1 PR para reduzir o dano em um nível: \n Mortal > Grave > Temporário > Sem dano"
       },
       "growthOption": {
