@@ -1,3 +1,6 @@
+# 1.1.1
+- fw manifest
+
 # 1.1.0
 - melhoria da ficha
 
